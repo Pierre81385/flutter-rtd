@@ -1,4 +1,4 @@
-![demo](https://github.com/Pierre81385/rtd_flutter/blob/main/rtd/lib/assets/train1.gif?raw=true)
+![demo](https://github.com/Pierre81385/rtd_flutter/blob/main/rtd/lib/assets/current.gif?raw=true)
 
 # Where's my train?
 
