@@ -374,13 +374,24 @@ class _RTDFeedState extends State<RTDFeed> {
                                           }
                                         },
                                         child: stopSelected ==
-                                                stopData[vehicles[index]
-                                                        .vehicle
-                                                        .stopId]!["stop_name"]
+                                                stopData[vehicles[index].vehicle.stopId]!["stop_name"]
                                                     .toString()
-                                            ? const Text(
+                                            ? Text(
+                                                style: TextStyle(
+                                                    color:
+                                                        hexToArgbColor(routeData[vehicles[index].vehicle.trip.routeId.toString()]!["route_color"].toString())
+                                                            .withOpacity(1.0)),
                                                 "Hide Stop Information")
-                                            : const Text(
+                                            : Text(
+                                                style: TextStyle(
+                                                    color: hexToArgbColor(routeData[
+                                                                vehicles[index]
+                                                                    .vehicle
+                                                                    .trip
+                                                                    .routeId
+                                                                    .toString()]!["route_color"]
+                                                            .toString())
+                                                        .withOpacity(1.0)),
                                                 "Show Stop Information")),
                                     stopSelected ==
                                             stopData[vehicles[index]

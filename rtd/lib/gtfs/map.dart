@@ -39,15 +39,31 @@ class _MapViewState extends State<MapView> {
   late CameraPosition _kInitialPosition;
   final Map<String, Marker> _markers = {};
   BitmapDescriptor markerIcon = BitmapDescriptor.defaultMarker;
+  BitmapDescriptor trainIcon = BitmapDescriptor.defaultMarker;
+
   // late Set<Polyline> _Polyline = HashSet<Polyline>();
   late Set<Polyline> points = {};
   late Map<String, Map<String, Object>> shapes;
 
-  void addCustomIcon(asset) {
-    BitmapDescriptor.fromAssetImage(const ImageConfiguration(), asset).then(
+  void addCustomIcon() {
+    BitmapDescriptor.fromAssetImage(
+            ImageConfiguration(size: Size(10, 10)), "lib/assets/station.png")
+        .then(
       (icon) {
         setState(() {
           markerIcon = icon;
+        });
+      },
+    );
+  }
+
+  void addTrainIcon() {
+    BitmapDescriptor.fromAssetImage(
+            ImageConfiguration(size: Size(10, 10)), "lib/assets/train.png")
+        .then(
+      (icon) {
+        setState(() {
+          trainIcon = icon;
         });
       },
     );
@@ -76,6 +92,7 @@ class _MapViewState extends State<MapView> {
       setState(() {
         //add station marker for each index of widget.stops
         final stationMarker = Marker(
+            icon: markerIcon,
             markerId: MarkerId(widget.stops[i].stopId),
             position: LatLng(
                 stopData[widget.stops[i].stopId]!["stop_lat"] as double,
@@ -121,7 +138,7 @@ class _MapViewState extends State<MapView> {
                 " " +
                 stopData[widget.stops[0].stopId]!["stop_name"].toString(),
           ),
-          icon: markerIcon);
+          icon: trainIcon);
 
       _markers[widget.vehicleId] = trainMarker;
       getPoints();
@@ -131,6 +148,8 @@ class _MapViewState extends State<MapView> {
   @override
   void initState() {
     super.initState();
+    addCustomIcon();
+    addTrainIcon();
     shapes = Map<String, Map<String, Object>>.from(shapeData);
     getPoints();
     _kMapCenter = LatLng(widget.lat, widget.long);
