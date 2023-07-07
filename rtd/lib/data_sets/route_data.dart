@@ -696,7 +696,7 @@ const routeData = {
     "route_desc": "This Route Travels Northbound & Southbound",
     "route_type": 0,
     "route_url": "http://www.rtd-denver.com/Schedules.shtml",
-    "route_color": 552683,
+    "route_color": "552683",
     "route_text_color": "FFFFFF"
   },
   "101H": {

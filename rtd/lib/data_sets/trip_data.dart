@@ -12558,7 +12558,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627008",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 36",
     "shape_id": "1255292"
@@ -12567,7 +12567,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627033",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 33",
     "shape_id": "1255285"
@@ -12576,7 +12576,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627034",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 34",
     "shape_id": "1255285"
@@ -12585,7 +12585,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627035",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 32",
     "shape_id": "1255285"
@@ -12594,7 +12594,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627036",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 31",
     "shape_id": "1255285"
@@ -12603,7 +12603,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627037",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 36",
     "shape_id": "1255285"
@@ -12612,7 +12612,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627038",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 36",
     "shape_id": "1255285"
@@ -12621,7 +12621,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627039",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 31",
     "shape_id": "1255285"
@@ -12630,7 +12630,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627040",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 32",
     "shape_id": "1255285"
@@ -12639,7 +12639,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627041",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 34",
     "shape_id": "1255285"
@@ -12648,7 +12648,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627042",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 33",
     "shape_id": "1255285"
@@ -12657,7 +12657,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627043",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 35",
     "shape_id": "1255285"
@@ -12666,7 +12666,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627044",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 36",
     "shape_id": "1255285"
@@ -12675,7 +12675,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627045",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 31",
     "shape_id": "1255285"
@@ -12684,7 +12684,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627046",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 32",
     "shape_id": "1255285"
@@ -12693,7 +12693,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627047",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 34",
     "shape_id": "1255285"
@@ -12702,7 +12702,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627048",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 33",
     "shape_id": "1255285"
@@ -12711,7 +12711,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627049",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 35",
     "shape_id": "1255285"
@@ -12720,7 +12720,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627050",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 36",
     "shape_id": "1255285"
@@ -12729,7 +12729,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627051",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 31",
     "shape_id": "1255285"
@@ -12738,7 +12738,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627052",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 32",
     "shape_id": "1255285"
@@ -12747,7 +12747,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627053",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 34",
     "shape_id": "1255285"
@@ -12756,7 +12756,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627054",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 33",
     "shape_id": "1255285"
@@ -12765,7 +12765,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627055",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 35",
     "shape_id": "1255285"
@@ -12774,7 +12774,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627066",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 33",
     "shape_id": "1255292"
@@ -12783,7 +12783,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627073",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 103 76",
     "shape_id": "1255292"
@@ -12792,7 +12792,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627074",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 103 75",
     "shape_id": "1255292"
@@ -12801,7 +12801,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627076",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 103 73",
     "shape_id": "1255292"
@@ -12810,7 +12810,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627077",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 103 72",
     "shape_id": "1255292"
@@ -12819,7 +12819,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627078",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 103 74",
     "shape_id": "1255292"
@@ -12828,7 +12828,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627102",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 35",
     "shape_id": "1255292"
@@ -12837,7 +12837,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627190",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 34",
     "shape_id": "1255285"
@@ -12846,7 +12846,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627196",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 31",
     "shape_id": "1255285"
@@ -12855,7 +12855,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627197",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 32",
     "shape_id": "1255285"
@@ -12864,7 +12864,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627198",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 33",
     "shape_id": "1255285"
@@ -12873,7 +12873,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627199",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 35",
     "shape_id": "1255285"
@@ -12882,7 +12882,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627200",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 36",
     "shape_id": "1255285"
@@ -12891,7 +12891,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627201",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 31",
     "shape_id": "1255285"
@@ -12900,7 +12900,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627202",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 32",
     "shape_id": "1255285"
@@ -12909,7 +12909,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627203",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 34",
     "shape_id": "1255285"
@@ -12918,7 +12918,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627204",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 33",
     "shape_id": "1255285"
@@ -12927,7 +12927,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627205",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 35",
     "shape_id": "1255285"
@@ -12936,7 +12936,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627206",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 36",
     "shape_id": "1255285"
@@ -12945,7 +12945,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627207",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 31",
     "shape_id": "1255285"
@@ -12954,7 +12954,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627208",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 32",
     "shape_id": "1255285"
@@ -12963,7 +12963,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627209",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 34",
     "shape_id": "1255285"
@@ -12972,7 +12972,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627210",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 33",
     "shape_id": "1255285"
@@ -12981,7 +12981,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627211",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 35",
     "shape_id": "1255285"
@@ -12990,7 +12990,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627221",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 34",
     "shape_id": "1255313"
@@ -12999,7 +12999,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627222",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 32",
     "shape_id": "1255313"
@@ -13008,7 +13008,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627223",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 31",
     "shape_id": "1255313"
@@ -13017,7 +13017,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627224",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 36",
     "shape_id": "1255313"
@@ -13026,7 +13026,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627225",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 35",
     "shape_id": "1255313"
@@ -13035,7 +13035,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627226",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 33",
     "shape_id": "1255313"
@@ -13044,7 +13044,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627227",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 34",
     "shape_id": "1255313"
@@ -13053,7 +13053,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627242",
-    "trip_headsign": "E-Line Lincoln",
+    "trip_headsign": "E-Line to Lincoln",
     "direction_id": "1",
     "block_id": " 107 23",
     "shape_id": "1255309"
@@ -13062,7 +13062,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627243",
-    "trip_headsign": "E-Line Lincoln",
+    "trip_headsign": "E-Line to Lincoln",
     "direction_id": "1",
     "block_id": " 107 25",
     "shape_id": "1255309"
@@ -13071,7 +13071,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627244",
-    "trip_headsign": "E-Line Lincoln",
+    "trip_headsign": "E-Line to Lincoln",
     "direction_id": "1",
     "block_id": " 107 21",
     "shape_id": "1255309"
@@ -13080,7 +13080,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627317",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 31",
     "shape_id": "1255313"
@@ -13089,7 +13089,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627318",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 32",
     "shape_id": "1255313"
@@ -13098,7 +13098,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627319",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 34",
     "shape_id": "1255313"
@@ -13107,7 +13107,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627320",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 33",
     "shape_id": "1255313"
@@ -13116,7 +13116,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627321",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 35",
     "shape_id": "1255313"
@@ -13125,7 +13125,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627322",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 36",
     "shape_id": "1255313"
@@ -13134,7 +13134,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627323",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 31",
     "shape_id": "1255313"
@@ -13143,7 +13143,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627324",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 32",
     "shape_id": "1255313"
@@ -13152,7 +13152,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627338",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 33",
     "shape_id": "1255313"
@@ -13161,7 +13161,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627339",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 36",
     "shape_id": "1255313"
@@ -13170,7 +13170,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627340",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 31",
     "shape_id": "1255313"
@@ -13179,7 +13179,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627341",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 32",
     "shape_id": "1255313"
@@ -13188,7 +13188,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627342",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 34",
     "shape_id": "1255313"
@@ -13197,7 +13197,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627343",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 33",
     "shape_id": "1255313"
@@ -13206,7 +13206,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627344",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 35",
     "shape_id": "1255313"
@@ -13215,7 +13215,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627345",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 36",
     "shape_id": "1255313"
@@ -13224,7 +13224,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627370",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 34",
     "shape_id": "1255313"
@@ -13233,7 +13233,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627371",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 33",
     "shape_id": "1255313"
@@ -13242,7 +13242,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627372",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 35",
     "shape_id": "1255313"
@@ -13251,7 +13251,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627373",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 36",
     "shape_id": "1255313"
@@ -13260,7 +13260,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627374",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 36",
     "shape_id": "1255313"
@@ -13269,7 +13269,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627375",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 31",
     "shape_id": "1255313"
@@ -13278,7 +13278,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627376",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 32",
     "shape_id": "1255313"
@@ -13287,7 +13287,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627377",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 34",
     "shape_id": "1255313"
@@ -13296,7 +13296,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627378",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 33",
     "shape_id": "1255313"
@@ -13305,7 +13305,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627379",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 35",
     "shape_id": "1255313"
@@ -13314,7 +13314,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627380",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 36",
     "shape_id": "1255313"
@@ -13323,7 +13323,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627381",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 31",
     "shape_id": "1255313"
@@ -13332,7 +13332,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627382",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 32",
     "shape_id": "1255313"
@@ -13341,7 +13341,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627383",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 34",
     "shape_id": "1255313"
@@ -13350,7 +13350,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627384",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 33",
     "shape_id": "1255313"
@@ -13359,7 +13359,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627385",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 35",
     "shape_id": "1255313"
@@ -13368,7 +13368,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627386",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 31",
     "shape_id": "1255313"
@@ -13377,7 +13377,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627387",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 32",
     "shape_id": "1255313"
@@ -13386,7 +13386,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627393",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 31",
     "shape_id": "1255312"
@@ -13395,7 +13395,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627394",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 32",
     "shape_id": "1255312"
@@ -13404,7 +13404,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627396",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 34",
     "shape_id": "1255312"
@@ -13413,7 +13413,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627400",
-    "trip_headsign": "E-Line Lincoln",
+    "trip_headsign": "E-Line to Lincoln",
     "direction_id": "1",
     "block_id": " 107 26",
     "shape_id": "1255309"
@@ -13422,7 +13422,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "FR",
     "trip_id": "114627413",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 35",
     "shape_id": "1255313"
@@ -13431,7 +13431,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627417",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 31",
     "shape_id": "1255285"
@@ -13440,7 +13440,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627418",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 36",
     "shape_id": "1255285"
@@ -13449,7 +13449,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627419",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 33",
     "shape_id": "1255285"
@@ -13458,7 +13458,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627420",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 34",
     "shape_id": "1255285"
@@ -13467,7 +13467,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627421",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 32",
     "shape_id": "1255285"
@@ -13476,7 +13476,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627422",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 31",
     "shape_id": "1255285"
@@ -13485,7 +13485,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627424",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 35",
     "shape_id": "1255285"
@@ -13494,7 +13494,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627542",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 103 74",
     "shape_id": "1255292"
@@ -13503,7 +13503,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627543",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 103 72",
     "shape_id": "1255292"
@@ -13512,7 +13512,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627544",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 103 73",
     "shape_id": "1255292"
@@ -13521,7 +13521,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627546",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 103 75",
     "shape_id": "1255292"
@@ -13530,7 +13530,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627547",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 103 76",
     "shape_id": "1255292"
@@ -13539,7 +13539,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627553",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 33",
     "shape_id": "1255285"
@@ -13548,7 +13548,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627555",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 35",
     "shape_id": "1255285"
@@ -13557,7 +13557,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627557",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 33",
     "shape_id": "1255292"
@@ -13566,7 +13566,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627566",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 36",
     "shape_id": "1255285"
@@ -13575,7 +13575,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627567",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 32",
     "shape_id": "1255285"
@@ -13584,7 +13584,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627568",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 31",
     "shape_id": "1255285"
@@ -13593,7 +13593,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627569",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 36",
     "shape_id": "1255285"
@@ -13602,7 +13602,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627570",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 33",
     "shape_id": "1255285"
@@ -13611,7 +13611,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627571",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 35",
     "shape_id": "1255285"
@@ -13620,7 +13620,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627572",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 34",
     "shape_id": "1255285"
@@ -13629,7 +13629,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627573",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 32",
     "shape_id": "1255285"
@@ -13638,7 +13638,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627574",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 31",
     "shape_id": "1255285"
@@ -13647,7 +13647,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627575",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 36",
     "shape_id": "1255285"
@@ -13656,7 +13656,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627576",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 33",
     "shape_id": "1255285"
@@ -13665,7 +13665,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627577",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 35",
     "shape_id": "1255285"
@@ -13674,7 +13674,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627578",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 34",
     "shape_id": "1255285"
@@ -13683,7 +13683,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627579",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 32",
     "shape_id": "1255285"
@@ -13692,7 +13692,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627580",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 31",
     "shape_id": "1255285"
@@ -13701,7 +13701,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627596",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 34",
     "shape_id": "1255285"
@@ -13710,7 +13710,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627601",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 31",
     "shape_id": "1255285"
@@ -13719,7 +13719,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627603",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 36",
     "shape_id": "1255285"
@@ -13728,7 +13728,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627604",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 33",
     "shape_id": "1255285"
@@ -13737,7 +13737,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627605",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 35",
     "shape_id": "1255285"
@@ -13746,7 +13746,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627606",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 34",
     "shape_id": "1255285"
@@ -13755,7 +13755,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627607",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 32",
     "shape_id": "1255285"
@@ -13764,7 +13764,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627608",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 31",
     "shape_id": "1255285"
@@ -13773,7 +13773,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627609",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 36",
     "shape_id": "1255285"
@@ -13782,7 +13782,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627610",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 33",
     "shape_id": "1255285"
@@ -13791,7 +13791,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627611",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 35",
     "shape_id": "1255285"
@@ -13800,7 +13800,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627612",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 34",
     "shape_id": "1255285"
@@ -13809,7 +13809,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627613",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 32",
     "shape_id": "1255285"
@@ -13818,7 +13818,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627614",
-    "trip_headsign": "E-Line Lincoln",
+    "trip_headsign": "E-Line to Lincoln",
     "direction_id": "1",
     "block_id": " 107 21",
     "shape_id": "1255309"
@@ -13827,7 +13827,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627618",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 35",
     "shape_id": "1255312"
@@ -13836,7 +13836,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627634",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 36",
     "shape_id": "1255313"
@@ -13845,7 +13845,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627635",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 33",
     "shape_id": "1255313"
@@ -13854,7 +13854,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627656",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 31",
     "shape_id": "1255313"
@@ -13863,7 +13863,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627657",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 36",
     "shape_id": "1255313"
@@ -13872,7 +13872,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627658",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 33",
     "shape_id": "1255313"
@@ -13881,7 +13881,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627659",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 35",
     "shape_id": "1255313"
@@ -13890,7 +13890,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627660",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 34",
     "shape_id": "1255313"
@@ -13899,7 +13899,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627661",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 32",
     "shape_id": "1255313"
@@ -13908,7 +13908,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627662",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 31",
     "shape_id": "1255313"
@@ -13917,7 +13917,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627663",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 33",
     "shape_id": "1255313"
@@ -13926,7 +13926,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627667",
-    "trip_headsign": "E-Line Lincoln",
+    "trip_headsign": "E-Line to Lincoln",
     "direction_id": "1",
     "block_id": " 107 26",
     "shape_id": "1255309"
@@ -13935,7 +13935,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627671",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 34",
     "shape_id": "1255313"
@@ -13944,7 +13944,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627672",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 32",
     "shape_id": "1255313"
@@ -13953,7 +13953,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627673",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 31",
     "shape_id": "1255313"
@@ -13962,7 +13962,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627674",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 36",
     "shape_id": "1255313"
@@ -13971,7 +13971,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627675",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 33",
     "shape_id": "1255313"
@@ -13980,7 +13980,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627676",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 35",
     "shape_id": "1255313"
@@ -13989,7 +13989,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627677",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 34",
     "shape_id": "1255313"
@@ -13998,7 +13998,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627678",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 32",
     "shape_id": "1255313"
@@ -14007,7 +14007,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627759",
-    "trip_headsign": "E-Line Lincoln",
+    "trip_headsign": "E-Line to Lincoln",
     "direction_id": "1",
     "block_id": " 107 23",
     "shape_id": "1255309"
@@ -14016,7 +14016,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627761",
-    "trip_headsign": "E-Line Lincoln",
+    "trip_headsign": "E-Line to Lincoln",
     "direction_id": "1",
     "block_id": " 107 25",
     "shape_id": "1255309"
@@ -14025,7 +14025,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627778",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 36",
     "shape_id": "1255312"
@@ -14034,7 +14034,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627781",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 34",
     "shape_id": "1255312"
@@ -14043,7 +14043,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627782",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 35",
     "shape_id": "1255313"
@@ -14052,7 +14052,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627783",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 32",
     "shape_id": "1255312"
@@ -14061,7 +14061,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627784",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 31",
     "shape_id": "1255312"
@@ -14070,7 +14070,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627790",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 34",
     "shape_id": "1255313"
@@ -14079,7 +14079,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627791",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 32",
     "shape_id": "1255313"
@@ -14088,7 +14088,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627792",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 36",
     "shape_id": "1255313"
@@ -14097,7 +14097,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627793",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 33",
     "shape_id": "1255313"
@@ -14106,7 +14106,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627794",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 35",
     "shape_id": "1255313"
@@ -14115,7 +14115,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627795",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 34",
     "shape_id": "1255313"
@@ -14124,7 +14124,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627796",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 32",
     "shape_id": "1255313"
@@ -14133,7 +14133,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627797",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 31",
     "shape_id": "1255313"
@@ -14142,7 +14142,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627798",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 36",
     "shape_id": "1255313"
@@ -14151,7 +14151,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627799",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 33",
     "shape_id": "1255313"
@@ -14160,7 +14160,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627800",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 35",
     "shape_id": "1255313"
@@ -14169,7 +14169,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627801",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 34",
     "shape_id": "1255313"
@@ -14178,7 +14178,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627802",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 32",
     "shape_id": "1255313"
@@ -14187,7 +14187,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627803",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 31",
     "shape_id": "1255313"
@@ -14196,7 +14196,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627804",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 31",
     "shape_id": "1255313"
@@ -14205,7 +14205,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627805",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 36",
     "shape_id": "1255313"
@@ -14214,7 +14214,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627806",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 33",
     "shape_id": "1255313"
@@ -14223,7 +14223,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "MT",
     "trip_id": "114627807",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 35",
     "shape_id": "1255313"
@@ -14232,7 +14232,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114627904",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 36",
     "shape_id": "1255292"
@@ -14241,7 +14241,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114627906",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 33",
     "shape_id": "1255285"
@@ -14250,7 +14250,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114627909",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 33",
     "shape_id": "1255292"
@@ -14259,7 +14259,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114627918",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 35",
     "shape_id": "1255285"
@@ -14268,7 +14268,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114627919",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 36",
     "shape_id": "1255285"
@@ -14277,7 +14277,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114627920",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 34",
     "shape_id": "1255285"
@@ -14286,7 +14286,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114627921",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 32",
     "shape_id": "1255285"
@@ -14295,7 +14295,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114627922",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 31",
     "shape_id": "1255285"
@@ -14304,7 +14304,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114627923",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 35",
     "shape_id": "1255285"
@@ -14313,7 +14313,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114627924",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 33",
     "shape_id": "1255285"
@@ -14322,7 +14322,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114627925",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 34",
     "shape_id": "1255285"
@@ -14331,7 +14331,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114627926",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 36",
     "shape_id": "1255285"
@@ -14340,7 +14340,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114627927",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 32",
     "shape_id": "1255285"
@@ -14349,7 +14349,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114627928",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 31",
     "shape_id": "1255285"
@@ -14358,7 +14358,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114627929",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 35",
     "shape_id": "1255285"
@@ -14367,7 +14367,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114627930",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 33",
     "shape_id": "1255285"
@@ -14376,7 +14376,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114627931",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 36",
     "shape_id": "1255285"
@@ -14385,7 +14385,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114627932",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 34",
     "shape_id": "1255285"
@@ -14394,7 +14394,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114627933",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 32",
     "shape_id": "1255285"
@@ -14403,7 +14403,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114627934",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 31",
     "shape_id": "1255285"
@@ -14412,7 +14412,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114627935",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 35",
     "shape_id": "1255285"
@@ -14421,7 +14421,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114627936",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 31",
     "shape_id": "1255285"
@@ -14430,7 +14430,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114627937",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 32",
     "shape_id": "1255285"
@@ -14439,7 +14439,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114627938",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 34",
     "shape_id": "1255285"
@@ -14448,7 +14448,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114627939",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 36",
     "shape_id": "1255285"
@@ -14457,7 +14457,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114627940",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 33",
     "shape_id": "1255285"
@@ -14466,7 +14466,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114627951",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 103 75",
     "shape_id": "1255292"
@@ -14475,7 +14475,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114627968",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 103 73",
     "shape_id": "1255292"
@@ -14484,7 +14484,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114627969",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 103 72",
     "shape_id": "1255292"
@@ -14493,7 +14493,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114627970",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 103 74",
     "shape_id": "1255292"
@@ -14502,7 +14502,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114627972",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 103 76",
     "shape_id": "1255292"
@@ -14511,7 +14511,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114627991",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 33",
     "shape_id": "1255285"
@@ -14520,7 +14520,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114627992",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 36",
     "shape_id": "1255285"
@@ -14529,7 +14529,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114627993",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 34",
     "shape_id": "1255285"
@@ -14538,7 +14538,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114627994",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 32",
     "shape_id": "1255285"
@@ -14547,7 +14547,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114627995",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 31",
     "shape_id": "1255285"
@@ -14556,7 +14556,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114627996",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 35",
     "shape_id": "1255285"
@@ -14565,7 +14565,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114627997",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 33",
     "shape_id": "1255285"
@@ -14574,7 +14574,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114627998",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 36",
     "shape_id": "1255285"
@@ -14583,7 +14583,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114627999",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 32",
     "shape_id": "1255285"
@@ -14592,7 +14592,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628000",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 31",
     "shape_id": "1255285"
@@ -14601,7 +14601,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628001",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 35",
     "shape_id": "1255285"
@@ -14610,7 +14610,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628002",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 33",
     "shape_id": "1255285"
@@ -14619,7 +14619,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628003",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 34",
     "shape_id": "1255285"
@@ -14628,7 +14628,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628004",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 34",
     "shape_id": "1255285"
@@ -14637,7 +14637,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628005",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 32",
     "shape_id": "1255285"
@@ -14646,7 +14646,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628006",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 31",
     "shape_id": "1255285"
@@ -14655,7 +14655,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628007",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 35",
     "shape_id": "1255292"
@@ -14664,7 +14664,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628009",
-    "trip_headsign": "E-Line Lincoln",
+    "trip_headsign": "E-Line to Lincoln",
     "direction_id": "1",
     "block_id": " 107 23",
     "shape_id": "1255309"
@@ -14673,7 +14673,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628020",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 36",
     "shape_id": "1255313"
@@ -14682,7 +14682,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628034",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 36",
     "shape_id": "1255313"
@@ -14691,7 +14691,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628062",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 31",
     "shape_id": "1255313"
@@ -14700,7 +14700,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628063",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 35",
     "shape_id": "1255313"
@@ -14709,7 +14709,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628064",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 36",
     "shape_id": "1255313"
@@ -14718,7 +14718,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628065",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 34",
     "shape_id": "1255313"
@@ -14727,7 +14727,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628066",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 32",
     "shape_id": "1255313"
@@ -14736,7 +14736,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628095",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 34",
     "shape_id": "1255312"
@@ -14745,7 +14745,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628097",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 32",
     "shape_id": "1255312"
@@ -14754,7 +14754,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628098",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 33",
     "shape_id": "1255313"
@@ -14763,7 +14763,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628099",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 34",
     "shape_id": "1255313"
@@ -14772,7 +14772,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628101",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 32",
     "shape_id": "1255313"
@@ -14781,7 +14781,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628102",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 31",
     "shape_id": "1255313"
@@ -14790,7 +14790,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628103",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 35",
     "shape_id": "1255313"
@@ -14799,7 +14799,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628104",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 33",
     "shape_id": "1255313"
@@ -14808,7 +14808,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628144",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 34",
     "shape_id": "1255313"
@@ -14817,7 +14817,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628145",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 32",
     "shape_id": "1255313"
@@ -14826,7 +14826,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628146",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 31",
     "shape_id": "1255313"
@@ -14835,7 +14835,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628147",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 35",
     "shape_id": "1255313"
@@ -14844,7 +14844,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628148",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 33",
     "shape_id": "1255313"
@@ -14853,7 +14853,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628160",
-    "trip_headsign": "E-Line Lincoln",
+    "trip_headsign": "E-Line to Lincoln",
     "direction_id": "1",
     "block_id": " 107 21",
     "shape_id": "1255309"
@@ -14862,7 +14862,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628161",
-    "trip_headsign": "E-Line Lincoln",
+    "trip_headsign": "E-Line to Lincoln",
     "direction_id": "1",
     "block_id": " 107 26",
     "shape_id": "1255309"
@@ -14871,7 +14871,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628162",
-    "trip_headsign": "E-Line Lincoln",
+    "trip_headsign": "E-Line to Lincoln",
     "direction_id": "1",
     "block_id": " 107 25",
     "shape_id": "1255309"
@@ -14880,7 +14880,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628177",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 36",
     "shape_id": "1255313"
@@ -14889,7 +14889,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628178",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 33",
     "shape_id": "1255313"
@@ -14898,7 +14898,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628179",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 35",
     "shape_id": "1255313"
@@ -14907,7 +14907,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628180",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 31",
     "shape_id": "1255313"
@@ -14916,7 +14916,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628181",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 32",
     "shape_id": "1255313"
@@ -14925,7 +14925,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628182",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 34",
     "shape_id": "1255313"
@@ -14934,7 +14934,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628183",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 36",
     "shape_id": "1255313"
@@ -14943,7 +14943,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628184",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 33",
     "shape_id": "1255313"
@@ -14952,7 +14952,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628185",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 31",
     "shape_id": "1255312"
@@ -14961,7 +14961,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628189",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 34",
     "shape_id": "1255313"
@@ -14970,7 +14970,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628190",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 32",
     "shape_id": "1255313"
@@ -14979,7 +14979,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628191",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 35",
     "shape_id": "1255313"
@@ -14988,7 +14988,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628192",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 33",
     "shape_id": "1255313"
@@ -14997,7 +14997,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628193",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 36",
     "shape_id": "1255313"
@@ -15006,7 +15006,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628194",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 34",
     "shape_id": "1255313"
@@ -15015,7 +15015,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628195",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 32",
     "shape_id": "1255313"
@@ -15024,7 +15024,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628196",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 31",
     "shape_id": "1255313"
@@ -15033,7 +15033,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628197",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 35",
     "shape_id": "1255313"
@@ -15042,7 +15042,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628198",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 33",
     "shape_id": "1255313"
@@ -15051,7 +15051,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628199",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 36",
     "shape_id": "1255313"
@@ -15060,7 +15060,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628200",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 34",
     "shape_id": "1255313"
@@ -15069,7 +15069,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628201",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 32",
     "shape_id": "1255313"
@@ -15078,7 +15078,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628202",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 31",
     "shape_id": "1255313"
@@ -15087,7 +15087,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628203",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 31",
     "shape_id": "1255313"
@@ -15096,7 +15096,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SA",
     "trip_id": "114628204",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 35",
     "shape_id": "1255313"
@@ -15105,7 +15105,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628223",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 35",
     "shape_id": "1255285"
@@ -15114,7 +15114,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628224",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 33",
     "shape_id": "1255285"
@@ -15123,7 +15123,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628225",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 34",
     "shape_id": "1255285"
@@ -15132,7 +15132,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628226",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 32",
     "shape_id": "1255285"
@@ -15141,7 +15141,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628227",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 31",
     "shape_id": "1255285"
@@ -15150,7 +15150,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628228",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 36",
     "shape_id": "1255285"
@@ -15159,7 +15159,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628229",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 35",
     "shape_id": "1255285"
@@ -15168,7 +15168,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628230",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 33",
     "shape_id": "1255285"
@@ -15177,7 +15177,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628231",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 32",
     "shape_id": "1255285"
@@ -15186,7 +15186,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628232",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 31",
     "shape_id": "1255285"
@@ -15195,7 +15195,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628233",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 36",
     "shape_id": "1255285"
@@ -15204,7 +15204,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628234",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 35",
     "shape_id": "1255285"
@@ -15213,7 +15213,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628235",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 34",
     "shape_id": "1255285"
@@ -15222,7 +15222,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628236",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 33",
     "shape_id": "1255285"
@@ -15231,7 +15231,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628237",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 34",
     "shape_id": "1255285"
@@ -15240,7 +15240,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628238",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 32",
     "shape_id": "1255285"
@@ -15249,7 +15249,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628239",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 31",
     "shape_id": "1255285"
@@ -15258,7 +15258,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628240",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 36",
     "shape_id": "1255292"
@@ -15267,7 +15267,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628328",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 35",
     "shape_id": "1255292"
@@ -15276,7 +15276,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628351",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 103 73",
     "shape_id": "1255292"
@@ -15285,7 +15285,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628352",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 103 72",
     "shape_id": "1255292"
@@ -15294,7 +15294,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628353",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 103 74",
     "shape_id": "1255292"
@@ -15303,7 +15303,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628355",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 103 76",
     "shape_id": "1255292"
@@ -15312,7 +15312,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628356",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 103 75",
     "shape_id": "1255292"
@@ -15321,7 +15321,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628362",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 33",
     "shape_id": "1255292"
@@ -15330,7 +15330,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628368",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 36",
     "shape_id": "1255285"
@@ -15339,7 +15339,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628369",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 35",
     "shape_id": "1255285"
@@ -15348,7 +15348,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628370",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 33",
     "shape_id": "1255285"
@@ -15357,7 +15357,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628371",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 34",
     "shape_id": "1255285"
@@ -15366,7 +15366,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628372",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 32",
     "shape_id": "1255285"
@@ -15375,7 +15375,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628373",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 31",
     "shape_id": "1255285"
@@ -15384,7 +15384,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628374",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 36",
     "shape_id": "1255285"
@@ -15393,7 +15393,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628375",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 35",
     "shape_id": "1255285"
@@ -15402,7 +15402,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628376",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 33",
     "shape_id": "1255285"
@@ -15411,7 +15411,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628377",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 34",
     "shape_id": "1255285"
@@ -15420,7 +15420,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628378",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 32",
     "shape_id": "1255285"
@@ -15429,7 +15429,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628379",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 31",
     "shape_id": "1255285"
@@ -15438,7 +15438,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628380",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 36",
     "shape_id": "1255285"
@@ -15447,7 +15447,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628381",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 35",
     "shape_id": "1255285"
@@ -15456,7 +15456,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628382",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 33",
     "shape_id": "1255285"
@@ -15465,7 +15465,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628383",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 34",
     "shape_id": "1255285"
@@ -15474,7 +15474,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628384",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 32",
     "shape_id": "1255285"
@@ -15483,7 +15483,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628385",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 31",
     "shape_id": "1255285"
@@ -15492,7 +15492,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628390",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 36",
     "shape_id": "1255285"
@@ -15501,7 +15501,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628391",
-    "trip_headsign": "E-Line Union Station",
+    "trip_headsign": "E-Line to Union Station",
     "direction_id": "0",
     "block_id": " 101 31",
     "shape_id": "1255285"
@@ -15510,7 +15510,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628404",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 34",
     "shape_id": "1255313"
@@ -15519,7 +15519,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628405",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 32",
     "shape_id": "1255313"
@@ -15528,7 +15528,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628406",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 31",
     "shape_id": "1255313"
@@ -15537,7 +15537,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628407",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 36",
     "shape_id": "1255313"
@@ -15546,7 +15546,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628408",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 35",
     "shape_id": "1255313"
@@ -15555,7 +15555,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628409",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 33",
     "shape_id": "1255313"
@@ -15564,7 +15564,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628410",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 34",
     "shape_id": "1255313"
@@ -15573,7 +15573,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628411",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 31",
     "shape_id": "1255313"
@@ -15582,7 +15582,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628417",
-    "trip_headsign": "E-Line Lincoln",
+    "trip_headsign": "E-Line to Lincoln",
     "direction_id": "1",
     "block_id": " 107 26",
     "shape_id": "1255309"
@@ -15591,7 +15591,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628431",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 36",
     "shape_id": "1255313"
@@ -15600,7 +15600,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628502",
-    "trip_headsign": "E-Line Lincoln",
+    "trip_headsign": "E-Line to Lincoln",
     "direction_id": "1",
     "block_id": " 107 21",
     "shape_id": "1255309"
@@ -15609,7 +15609,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628503",
-    "trip_headsign": "E-Line Lincoln",
+    "trip_headsign": "E-Line to Lincoln",
     "direction_id": "1",
     "block_id": " 107 25",
     "shape_id": "1255309"
@@ -15618,7 +15618,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628504",
-    "trip_headsign": "E-Line Lincoln",
+    "trip_headsign": "E-Line to Lincoln",
     "direction_id": "1",
     "block_id": " 107 23",
     "shape_id": "1255309"
@@ -15627,7 +15627,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628519",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 33",
     "shape_id": "1255313"
@@ -15636,7 +15636,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628520",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 35",
     "shape_id": "1255313"
@@ -15645,7 +15645,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628522",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 32",
     "shape_id": "1255313"
@@ -15654,7 +15654,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628523",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 34",
     "shape_id": "1255312"
@@ -15663,7 +15663,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628525",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 32",
     "shape_id": "1255312"
@@ -15672,7 +15672,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628526",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 31",
     "shape_id": "1255312"
@@ -15681,7 +15681,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628530",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 34",
     "shape_id": "1255313"
@@ -15690,7 +15690,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628531",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 32",
     "shape_id": "1255313"
@@ -15699,7 +15699,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628532",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 36",
     "shape_id": "1255313"
@@ -15708,7 +15708,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628533",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 35",
     "shape_id": "1255313"
@@ -15717,7 +15717,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628534",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 33",
     "shape_id": "1255313"
@@ -15726,7 +15726,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628535",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 34",
     "shape_id": "1255313"
@@ -15735,7 +15735,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628536",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 32",
     "shape_id": "1255313"
@@ -15744,7 +15744,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628537",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 31",
     "shape_id": "1255313"
@@ -15753,7 +15753,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628538",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 36",
     "shape_id": "1255313"
@@ -15762,7 +15762,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628539",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 35",
     "shape_id": "1255313"
@@ -15771,7 +15771,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628540",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 33",
     "shape_id": "1255313"
@@ -15780,7 +15780,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628541",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 34",
     "shape_id": "1255313"
@@ -15789,7 +15789,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628542",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 32",
     "shape_id": "1255313"
@@ -15798,7 +15798,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628543",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 31",
     "shape_id": "1255313"
@@ -15807,7 +15807,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628544",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 31",
     "shape_id": "1255313"
@@ -15816,7 +15816,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628545",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 36",
     "shape_id": "1255313"
@@ -15825,7 +15825,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628546",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 35",
     "shape_id": "1255313"
@@ -15834,7 +15834,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628547",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 33",
     "shape_id": "1255313"
@@ -15843,7 +15843,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628574",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 36",
     "shape_id": "1255313"
@@ -15852,7 +15852,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628575",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 35",
     "shape_id": "1255313"
@@ -15861,7 +15861,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628576",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 33",
     "shape_id": "1255313"
@@ -15870,7 +15870,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628577",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 34",
     "shape_id": "1255313"
@@ -15879,7 +15879,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628578",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 32",
     "shape_id": "1255313"
@@ -15888,7 +15888,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628579",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 31",
     "shape_id": "1255313"
@@ -15897,7 +15897,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628580",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 36",
     "shape_id": "1255313"
@@ -15906,7 +15906,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628581",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 35",
     "shape_id": "1255313"
@@ -15915,7 +15915,7 @@ const tripData = [
     "route_id": "101E",
     "service_id": "SU",
     "trip_id": "114628582",
-    "trip_headsign": "E-Line RidgeGate",
+    "trip_headsign": "E-Line to RidgeGate",
     "direction_id": "1",
     "block_id": " 101 33",
     "shape_id": "1255313"

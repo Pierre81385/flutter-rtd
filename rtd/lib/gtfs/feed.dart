@@ -25,7 +25,7 @@ class _RTDFeedState extends State<RTDFeed> {
   late String stopSelected;
   late bool stopScroll;
 
-  final status = ["Incoming at", "Stopped at", "In transit to"];
+  final status = ["incoming at", "stopped at", "in transit to"];
 
   final snack = const SnackBar(
     content: Text('Data Refreshed'),
@@ -178,6 +178,7 @@ class _RTDFeedState extends State<RTDFeed> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.transparent,
       key: _scaffoldKey,
       body: RefreshIndicator(
         onRefresh: () {
@@ -237,7 +238,16 @@ class _RTDFeedState extends State<RTDFeed> {
                               padding: const EdgeInsets.all(8.0),
                               child: Container(
                                 decoration: BoxDecoration(
-                                  color: Colors.white,
+                                  color: Colors.white.withOpacity(0.2),
+                                  border: Border.all(
+                                      color: hexToArgbColor(routeData[vehicles[
+                                                      index]
+                                                  .vehicle
+                                                  .trip
+                                                  .routeId
+                                                  .toString()]!["route_color"]
+                                              .toString())
+                                          .withOpacity(1.0)),
                                   borderRadius: const BorderRadius.only(
                                       topLeft: Radius.circular(10),
                                       topRight: Radius.circular(10),
@@ -299,9 +309,9 @@ class _RTDFeedState extends State<RTDFeed> {
                                           //descriptive name of the route
                                           title: Text(
                                               // "${routeData[vehicles[index].vehicle.trip.routeId.toString()]!["route_short_name"].toString()} Line heading to ${tripData[tripData.indexWhere((element) => element["trip_id"] == vehicles[index].vehicle.trip.tripId)]["trip_headsign"].toString()} ${status[vehicles[index].vehicle.currentStatus.value].toUpperCase()} ${stopData[vehicles[index].vehicle.stopId]!["stop_name"]}"),
-                                              style: TextStyle(
+                                              style: const TextStyle(
                                                   color: Colors.white),
-                                              "${tripData[tripData.indexWhere((element) => element["trip_id"] == vehicles[index].vehicle.trip.tripId)]["trip_headsign"].toString()} ${status[vehicles[index].vehicle.currentStatus.value].toString()} ${stopData[vehicles[index].vehicle.stopId]!["stop_name"]}"),
+                                              "${tripData[tripData.indexWhere((element) => element["trip_id"] == vehicles[index].vehicle.trip.tripId)]["trip_headsign"].toString()} train ${status[vehicles[index].vehicle.currentStatus.value].toString()} ${stopData[vehicles[index].vehicle.stopId]!["stop_name"]}"),
                                           //the current location of the selected train/bus
                                           trailing: IconButton(
                                               color: Colors.white,
@@ -341,96 +351,112 @@ class _RTDFeedState extends State<RTDFeed> {
                                                   Icons.place_outlined)),
                                           //route direction information & current status of movement
                                           subtitle: Text(
-                                              style: TextStyle(
+                                              style: const TextStyle(
                                                   color: Colors.white),
                                               "Status update on ${DateFormat.yMMMMd('en_US').add_jm().format(DateTime.fromMillisecondsSinceEpoch(vehicles[index].vehicle.timestamp.toInt() * 1000))}"),
                                         ),
                                       ),
                                     ),
-                                    OutlinedButton(
-                                        onPressed: () {
-                                          if (stopSelected == "") {
-                                            setState(() {
-                                              if (stopData[vehicles[index]
+                                    IconButton(
+                                      icon: stopSelected ==
+                                              stopData[vehicles[index]
                                                       .vehicle
-                                                      .stopId]!
-                                                  .isEmpty) {
-                                                setState(() {
-                                                  stopSelected = "empty";
-                                                });
-                                              } else {
-                                                stopSelected = stopData[
-                                                            vehicles[index]
-                                                                .vehicle
-                                                                .stopId]![
-                                                        "stop_name"]
-                                                    .toString();
-                                              }
-                                            });
-                                          } else {
-                                            setState(() {
-                                              stopSelected = "";
-                                            });
-                                          }
-                                        },
-                                        child: stopSelected ==
-                                                stopData[vehicles[index].vehicle.stopId]!["stop_name"]
-                                                    .toString()
-                                            ? Text(
-                                                style: TextStyle(
-                                                    color:
-                                                        hexToArgbColor(routeData[vehicles[index].vehicle.trip.routeId.toString()]!["route_color"].toString())
-                                                            .withOpacity(1.0)),
-                                                "Hide Stop Information")
-                                            : Text(
-                                                style: TextStyle(
-                                                    color: hexToArgbColor(routeData[
-                                                                vehicles[index]
-                                                                    .vehicle
-                                                                    .trip
-                                                                    .routeId
-                                                                    .toString()]!["route_color"]
-                                                            .toString())
-                                                        .withOpacity(1.0)),
-                                                "Show Stop Information")),
+                                                      .stopId]!["stop_name"]
+                                                  .toString()
+                                          ? const Icon(Icons.keyboard_arrow_up)
+                                          : const Icon(
+                                              Icons.keyboard_arrow_down),
+                                      onPressed: () {
+                                        if (stopSelected == "") {
+                                          setState(() {
+                                            if (stopData[vehicles[index]
+                                                    .vehicle
+                                                    .stopId]!
+                                                .isEmpty) {
+                                              setState(() {
+                                                stopSelected = "empty";
+                                              });
+                                            } else {
+                                              stopSelected = stopData[
+                                                      vehicles[index]
+                                                          .vehicle
+                                                          .stopId]!["stop_name"]
+                                                  .toString();
+                                            }
+                                          });
+                                        } else {
+                                          setState(() {
+                                            stopSelected = "";
+                                          });
+                                        }
+                                      },
+                                    ),
                                     stopSelected ==
                                             stopData[vehicles[index]
                                                     .vehicle
                                                     .stopId]!["stop_name"]
                                                 .toString()
-                                        ? Container(
-                                            child: ListView.builder(
-                                                shrinkWrap: true,
-                                                physics:
-                                                    const AlwaysScrollableScrollPhysics(),
-                                                itemCount: stops.length,
-                                                itemBuilder:
-                                                    (BuildContext context,
-                                                        int index) {
-                                                  List<FeedEntity>
-                                                      thisAlertsList = [];
+                                        ? ListView.builder(
+                                            shrinkWrap: true,
+                                            physics:
+                                                const NeverScrollableScrollPhysics(),
+                                            itemCount: stops.length,
+                                            itemBuilder: (BuildContext context,
+                                                int index) {
+                                              List<FeedEntity> thisAlertsList =
+                                                  [];
 
-                                                  for (var i = 0;
-                                                      i <= alerts.length - 1;
-                                                      i++) {
-                                                    var informedEntities =
-                                                        alerts[i]
-                                                            .alert
-                                                            .informedEntity;
-                                                    for (var entity
-                                                        in informedEntities) {
-                                                      if (entity.stopId ==
-                                                          stops[index].stopId) {
-                                                        thisAlertsList
-                                                            .add(alerts[i]);
+                                              for (var i = 0;
+                                                  i <= alerts.length - 1;
+                                                  i++) {
+                                                var informedEntities = alerts[i]
+                                                    .alert
+                                                    .informedEntity;
+                                                for (var entity
+                                                    in informedEntities) {
+                                                  if (entity.stopId ==
+                                                      stops[index].stopId) {
+                                                    thisAlertsList
+                                                        .add(alerts[i]);
 
-                                                        print(thisAlertsList
-                                                            .toString());
-                                                      }
-                                                    }
+                                                    print(thisAlertsList
+                                                        .toString());
                                                   }
+                                                }
+                                              }
 
-                                                  return ListTile(
+                                              return Padding(
+                                                padding:
+                                                    const EdgeInsets.all(8.0),
+                                                child: Container(
+                                                  decoration: BoxDecoration(
+                                                    color: Colors.white,
+                                                    borderRadius:
+                                                        const BorderRadius.only(
+                                                            topLeft:
+                                                                Radius.circular(
+                                                                    10),
+                                                            topRight:
+                                                                Radius.circular(
+                                                                    10),
+                                                            bottomLeft:
+                                                                Radius.circular(
+                                                                    10),
+                                                            bottomRight:
+                                                                Radius.circular(
+                                                                    10)),
+                                                    boxShadow: [
+                                                      BoxShadow(
+                                                        color: Colors.grey
+                                                            .withOpacity(0.5),
+                                                        spreadRadius: 5,
+                                                        blurRadius: 7,
+                                                        offset: const Offset(0,
+                                                            3), // changes position of shadow
+                                                      ),
+                                                    ],
+                                                  ),
+                                                  child: ListTile(
                                                     isThreeLine: true,
                                                     leading: IconButton(
                                                       onPressed: () {
@@ -480,8 +506,10 @@ class _RTDFeedState extends State<RTDFeed> {
                                                     ),
                                                     trailing: const Icon(Icons
                                                         .info_outline_rounded),
-                                                  );
-                                                }))
+                                                  ),
+                                                ),
+                                              );
+                                            })
                                         : const SizedBox(),
                                   ],
                                 ),

@@ -148,39 +148,47 @@ class _MapViewState extends State<MapView> {
   @override
   void initState() {
     super.initState();
-    addCustomIcon();
+    //addCustomIcon();
     addTrainIcon();
     shapes = Map<String, Map<String, Object>>.from(shapeData);
     getPoints();
     _kMapCenter = LatLng(widget.lat, widget.long);
     _kInitialPosition =
-        CameraPosition(target: _kMapCenter, zoom: 10.0, tilt: 0, bearing: 0);
+        CameraPosition(target: _kMapCenter, zoom: 14.0, tilt: 0, bearing: 0);
   }
 
   @override
   Widget build(BuildContext context) {
-    return Column(
-      children: [
-        Row(
-          children: [
-            OutlinedButton(
-                onPressed: () {
-                  Navigator.of(context).pushReplacement(
-                    MaterialPageRoute(builder: (context) => RTDApp()),
-                  );
-                },
-                child: Icon(Icons.arrow_back_ios_new))
-          ],
-        ),
-        Expanded(
-          child: GoogleMap(
-            onMapCreated: _onMapCreated,
-            initialCameraPosition: _kInitialPosition,
-            markers: _markers.values.toSet(),
-            polylines: points,
+    return SafeArea(
+      child: Column(
+        children: [
+          Row(
+            children: [
+              OutlinedButton(
+                  onPressed: () {
+                    Navigator.of(context).pushReplacement(
+                      MaterialPageRoute(builder: (context) => RTDApp()),
+                    );
+                  },
+                  child: Icon(Icons.arrow_back_ios_new))
+            ],
           ),
-        ),
-      ],
+          Expanded(
+            child: GoogleMap(
+              myLocationEnabled: true,
+              myLocationButtonEnabled: true,
+              zoomControlsEnabled: true,
+              zoomGesturesEnabled: true,
+              scrollGesturesEnabled: true,
+              compassEnabled: true,
+              onMapCreated: _onMapCreated,
+              initialCameraPosition: _kInitialPosition,
+              markers: _markers.values.toSet(),
+              polylines: points,
+            ),
+          ),
+        ],
+      ),
     );
   }
 }

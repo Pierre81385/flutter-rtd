@@ -26,24 +26,33 @@ class _RTDAppState extends State<RTDApp> {
       // appBar: AppBar(
       //   title: const Text('Where\'s my train?'),
       // ),
-      body: SafeArea(
-        child: Column(
-          children: [
-            Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: Center(
-                child: VehicleSelection(onChange: (value) {
-                  setState(() {
-                    _vehicleSelected = value;
-                  });
-                }),
+      body: Container(
+        decoration: const BoxDecoration(
+          image: DecorationImage(
+            image: AssetImage("lib/assets/background.png"),
+            fit: BoxFit.cover,
+          ),
+        ),
+        child: SafeArea(
+          bottom: false,
+          child: Column(
+            children: [
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: Center(
+                  child: VehicleSelection(onChange: (value) {
+                    setState(() {
+                      _vehicleSelected = value;
+                    });
+                  }),
+                ),
               ),
-            ),
-            Expanded(
-                child: RTDFeed(
-              vehicle: _vehicleSelected,
-            )),
-          ],
+              Expanded(
+                  child: RTDFeed(
+                vehicle: _vehicleSelected,
+              )),
+            ],
+          ),
         ),
       ),
     );
