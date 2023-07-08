@@ -7,6 +7,7 @@ import '../data_sets/route_data.dart';
 import '../data_sets/stop_data.dart';
 import '../data_sets/trip_data.dart';
 import '../data_sets/shape_data.dart';
+import 'dart:async';
 
 class RTDFeed extends StatefulWidget {
   const RTDFeed({required this.vehicle, super.key});
@@ -20,16 +21,43 @@ class _RTDFeedState extends State<RTDFeed> {
   late List<FeedEntity> alerts = [];
   late List<FeedEntity> trips = [];
   late List<FeedEntity> vehicles = [];
-
+  late bool alertsFinished = false;
+  late bool tripsFinished = false;
+  late bool vehiclesFinished = false;
+  final time = const Duration(seconds: 120);
+  final countDown = const Duration(seconds: 1);
   late GlobalKey<ScaffoldState> _scaffoldKey;
   late String stopSelected;
   late bool stopScroll;
+  int nextUpdate = 120;
 
   final status = ["incoming at", "stopped at", "in transit to"];
 
   final snack = const SnackBar(
     content: Text('Data Refreshed'),
   );
+
+  // ignore: non_constant_identifier_names
+  void StartTimer() {
+    Timer.periodic(countDown, (Timer timer) {
+      if (nextUpdate == 0) {
+        setState(() {
+          nextUpdate = 120;
+        });
+      } else {
+        setState(() {
+          nextUpdate--;
+        });
+      }
+    });
+
+    Timer.periodic(time, (Timer timer) {
+      print("data update requested");
+      AlertFeed();
+      VehicaleFeed();
+      TripFeed();
+    });
+  }
 
   void AlertFeed() async {
     final url = Uri.parse('https://www.rtd-denver.com/files/gtfs-rt/Alerts.pb');
@@ -38,10 +66,9 @@ class _RTDFeedState extends State<RTDFeed> {
     if (response.statusCode == 200) {
       final feedMessage = FeedMessage.fromBuffer(response.bodyBytes);
 
-      print('Number of Alerts: ${feedMessage.entity.length}.');
-
       setState(() {
         alerts = feedMessage.entity;
+        alertsFinished = true;
       });
     } else {
       print('Request failed with status: ${response.statusCode}.');
@@ -56,10 +83,9 @@ class _RTDFeedState extends State<RTDFeed> {
     if (response.statusCode == 200) {
       final feedMessage = FeedMessage.fromBuffer(response.bodyBytes);
 
-      print('Number of Trips Found: ${feedMessage.entity.length}.');
-
       setState(() {
         trips = feedMessage.entity;
+        tripsFinished = true;
       });
     } else {
       print('Request failed with status: ${response.statusCode}.');
@@ -74,10 +100,9 @@ class _RTDFeedState extends State<RTDFeed> {
     if (response.statusCode == 200) {
       final feedMessage = FeedMessage.fromBuffer(response.bodyBytes);
 
-      print('Number of Vehicles Found: ${feedMessage.entity.length}.');
-
       setState(() {
         vehicles = feedMessage.entity;
+        vehiclesFinished = true;
       });
     } else {
       print('Request failed with status: ${response.statusCode}.');
@@ -172,6 +197,7 @@ class _RTDFeedState extends State<RTDFeed> {
     _scaffoldKey = GlobalKey();
     stopSelected = "";
     stopScroll = false;
+    StartTimer();
     super.initState();
   }
 
@@ -210,7 +236,7 @@ class _RTDFeedState extends State<RTDFeed> {
                   element.tripUpdate.trip.tripId ==
                   vehicles[index].vehicle.trip.tripId);
               if (tripIndex == -1) {
-                print('no trip data');
+                print('gather information');
               } else {
                 for (var i = 0;
                     i <= trips[tripIndex].tripUpdate.stopTimeUpdate.length;
@@ -353,7 +379,7 @@ class _RTDFeedState extends State<RTDFeed> {
                                           subtitle: Text(
                                               style: const TextStyle(
                                                   color: Colors.white),
-                                              "Status update on ${DateFormat.yMMMMd('en_US').add_jm().format(DateTime.fromMillisecondsSinceEpoch(vehicles[index].vehicle.timestamp.toInt() * 1000))}"),
+                                              "Status update on ${DateFormat.yMMMMd('en_US').add_jm().format(DateTime.fromMillisecondsSinceEpoch(vehicles[index].vehicle.timestamp.toInt() * 1000))}.  Next update in ${nextUpdate.toString()} seconds."),
                                         ),
                                       ),
                                     ),
