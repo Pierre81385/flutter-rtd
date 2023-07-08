@@ -29,7 +29,7 @@ class _RTDAppState extends State<RTDApp> {
       body: Container(
         decoration: const BoxDecoration(
           image: DecorationImage(
-            image: AssetImage("lib/assets/background.png"),
+            image: AssetImage("lib/assets/background.jpeg"),
             fit: BoxFit.cover,
           ),
         ),
