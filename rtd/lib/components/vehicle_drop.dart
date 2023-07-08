@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:rtd/components/marquee.dart';
 import 'color_hex_argb.dart';
 
 class VehicleSelection extends StatefulWidget {
@@ -15,11 +16,12 @@ class _VehicleSelectionState extends State<VehicleSelection> {
   List<DropdownMenuItem<String>> get dropdownItems {
     List<DropdownMenuItem<String>> menuItems = [
       DropdownMenuItem(
-          value: "select",
-          child: Text(
-            'SELECT A LINE...',
-            style: headSignStyle,
-          )),
+        value: "select",
+        child: Text(
+          'SELECT A LINE...',
+          style: headSignStyle,
+        ),
+      ),
       DropdownMenuItem(
           value: "A",
           child: Text(
@@ -39,11 +41,12 @@ class _VehicleSelectionState extends State<VehicleSelection> {
             style: headSignStyle,
           )),
       DropdownMenuItem(
-          value: "E",
-          child: Text(
-            "E - Union Station to RidgeGate Parkway",
-            style: headSignStyle,
-          )),
+        value: "E",
+        child: Text(
+          "E - Union Station to RidgeGate Parkway",
+          style: headSignStyle,
+        ),
+      ),
       DropdownMenuItem(
           value: "G",
           child: Text(
@@ -145,6 +148,7 @@ class _VehicleSelectionState extends State<VehicleSelection> {
                   borderRadius: const BorderRadius.all(Radius.circular(10)))),
           child: DropdownButtonHideUnderline(
             child: DropdownButton(
+              dropdownColor: Colors.black,
               isExpanded: true,
               value: selectedValue,
               items: dropdownItems,
