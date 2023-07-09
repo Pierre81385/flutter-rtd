@@ -30,6 +30,8 @@ class _RTDFeedState extends State<RTDFeed> {
   late String stopSelected;
   late bool stopScroll;
   int nextUpdate = 120;
+  late Timer updateTimer;
+  late Timer countdownTimer;
 
   final status = ["incoming at", "stopped at", "in transit to"];
 
@@ -39,7 +41,7 @@ class _RTDFeedState extends State<RTDFeed> {
 
   // ignore: non_constant_identifier_names
   void StartTimer() {
-    Timer.periodic(countDown, (Timer timer) {
+    countdownTimer = Timer.periodic(countDown, (Timer timer) {
       if (nextUpdate == 0) {
         setState(() {
           nextUpdate = 120;
@@ -51,7 +53,7 @@ class _RTDFeedState extends State<RTDFeed> {
       }
     });
 
-    Timer.periodic(time, (Timer timer) {
+    updateTimer = Timer.periodic(time, (Timer timer) {
       print("data update requested");
       AlertFeed();
       VehicaleFeed();
@@ -199,6 +201,15 @@ class _RTDFeedState extends State<RTDFeed> {
     stopScroll = false;
     StartTimer();
     super.initState();
+  }
+
+  @override
+  void dispose() {
+    countdownTimer.cancel(); //cancel the periodic task
+    countdownTimer;
+    updateTimer.cancel();
+    updateTimer; //clear the timer variable
+    super.dispose();
   }
 
   @override
