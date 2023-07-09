@@ -40,8 +40,6 @@ class _MapViewState extends State<MapView> {
   final Map<String, Marker> _markers = {};
   BitmapDescriptor markerIcon = BitmapDescriptor.defaultMarker;
   BitmapDescriptor trainIcon = BitmapDescriptor.defaultMarker;
-
-  // late Set<Polyline> _Polyline = HashSet<Polyline>();
   late Set<Polyline> points = {};
   late Map<String, Map<String, Object>> shapes;
 
@@ -59,7 +57,26 @@ class _MapViewState extends State<MapView> {
 
   void addTrainIcon() {
     BitmapDescriptor.fromAssetImage(
-            ImageConfiguration(size: Size(10, 10)), "lib/assets/train.png")
+            ImageConfiguration(size: Size(10, 10)),
+            widget.line == "A"
+                ? "lib/assets/Atramway.png"
+                : widget.line == "B"
+                    ? "lib/assets/Btramway.png"
+                    : widget.line == "D"
+                        ? "lib/assets/Dtramway.png"
+                        : widget.line == "E"
+                            ? "lib/assets/Etramway.png"
+                            : widget.line == "G"
+                                ? "lib/assets/Gtramway.png"
+                                : widget.line == "H"
+                                    ? "lib/assets/Htramway.png"
+                                    : widget.line == "L"
+                                        ? "lib/assets/Ltramway.png"
+                                        : widget.line == "N"
+                                            ? "lib/assets/Ntramway.png"
+                                            : widget.line == "R"
+                                                ? "lib/assets/Rtramway.png"
+                                                : "lib/assets/Wtramway.png")
         .then(
       (icon) {
         setState(() {
@@ -88,6 +105,22 @@ class _MapViewState extends State<MapView> {
   }
 
   void getPoints() {
+    points.add(Polyline(
+      polylineId: PolylineId(widget.vehicleId),
+      visible: true,
+      patterns: <PatternItem>[
+        PatternItem.gap(15.0),
+        PatternItem.dot,
+        PatternItem.gap(15.0)
+      ],
+      width: 5,
+      points: [
+        LatLng(widget.lat, widget.long),
+        LatLng(stopData[widget.stops[0].stopId]!["stop_lat"] as double,
+            stopData[widget.stops[0].stopId]!["stop_lon"] as double),
+      ],
+      color: hexToArgbColor(routeData[widget.route]!["route_color"].toString()),
+    ));
     for (var i = 0; i < widget.stops.length; i++) {
       setState(() {
         //add station marker for each index of widget.stops
@@ -107,6 +140,8 @@ class _MapViewState extends State<MapView> {
             polylineId: PolylineId(
                 stopData[widget.stops[i].stopId]!["stop_name"].toString()),
             visible: true,
+
+            jointType: JointType.bevel,
             width: 5, //width of polyline
             points: [
               LatLng(
@@ -155,11 +190,6 @@ class _MapViewState extends State<MapView> {
     _kMapCenter = LatLng(widget.lat, widget.long);
     _kInitialPosition =
         CameraPosition(target: _kMapCenter, zoom: 14.0, tilt: 0, bearing: 0);
-  }
-
-  @override
-  void dispose() {
-    super.dispose();
   }
 
   @override

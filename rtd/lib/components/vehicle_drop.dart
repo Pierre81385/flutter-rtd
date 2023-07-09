@@ -19,69 +19,79 @@ class _VehicleSelectionState extends State<VehicleSelection> {
         value: "select",
         child: Text(
           'SELECT A LINE...',
-          style: headSignStyle,
+          style: TextStyle(color: Colors.amber, fontWeight: FontWeight.bold),
         ),
       ),
       DropdownMenuItem(
           value: "A",
           child: Text(
             "A - Union Station to Denver Airport",
-            style: headSignStyle,
+            style: TextStyle(
+                color: hexToArgbColor("57C1E9"), fontWeight: FontWeight.bold),
           )),
       DropdownMenuItem(
           value: "B",
           child: Text(
             "B - Union Station to Westminster",
-            style: headSignStyle,
+            style: TextStyle(
+                color: hexToArgbColor("4E9D2D"), fontWeight: FontWeight.bold),
           )),
       DropdownMenuItem(
           value: "D",
           child: Text(
             "D - 18th & California to Littleton - Mineral",
-            style: headSignStyle,
+            style: TextStyle(
+                color: hexToArgbColor("008348"), fontWeight: FontWeight.bold),
           )),
       DropdownMenuItem(
         value: "E",
         child: Text(
           "E - Union Station to RidgeGate Parkway",
-          style: headSignStyle,
+          style: TextStyle(
+              color: hexToArgbColor("552683"), fontWeight: FontWeight.bold),
         ),
       ),
       DropdownMenuItem(
           value: "G",
           child: Text(
             "G - Union Station to Wheat Ridge Ward",
-            style: headSignStyle,
+            style: TextStyle(
+                color: hexToArgbColor("F6B221"), fontWeight: FontWeight.bold),
           )),
       DropdownMenuItem(
           value: "H",
           child: Text(
             "H - 18th & California to Florida Station",
-            style: headSignStyle,
+            style: TextStyle(
+                color: hexToArgbColor("0075BE"), fontWeight: FontWeight.bold),
           )),
       DropdownMenuItem(
           value: "L",
           child: Text(
             "L - 30th & Downing to 16th & Stout",
-            style: headSignStyle,
+            style: TextStyle(
+                color: hexToArgbColor("FFCE00"), fontWeight: FontWeight.bold),
           )),
       DropdownMenuItem(
           value: "N",
           child: Text(
             "N - Union Station to Eastlake",
-            style: headSignStyle,
+            style: TextStyle(
+                color: hexToArgbColor("9F26B5"), fontWeight: FontWeight.bold),
           )),
       DropdownMenuItem(
           value: "R",
           child: Text(
             "R - Peoria Station to RidgeGate Parkway",
-            style: headSignStyle,
+            style: TextStyle(
+                color: hexToArgbColor("C4D600"), fontWeight: FontWeight.bold),
           )),
       DropdownMenuItem(
           value: "W",
           child: Text(
             "W - Union Station to JeffCo - Golden",
-            style: headSignStyle,
+            style: TextStyle(
+                color: hexToArgbColor("009DAA"), fontWeight: FontWeight.bold),
           )),
     ];
     return menuItems;
@@ -119,33 +129,38 @@ class _VehicleSelectionState extends State<VehicleSelection> {
         ),
         child: InputDecorator(
           decoration: InputDecoration(
-              border: OutlineInputBorder(
-                  borderSide: BorderSide(
-                    color: selectedValue == "A"
-                        ? hexToArgbColor("57C1E9")
-                        : selectedValue == "B"
-                            ? hexToArgbColor("4E9D2D")
-                            : selectedValue == "D"
-                                ? hexToArgbColor("008348")
-                                : selectedValue == "E"
-                                    ? hexToArgbColor("552683")
-                                    : selectedValue == "G"
-                                        ? hexToArgbColor("F6B221")
-                                        : selectedValue == "H"
-                                            ? hexToArgbColor("0075BE")
-                                            : selectedValue == "L"
-                                                ? hexToArgbColor("FFCE00")
-                                                : selectedValue == "N"
-                                                    ? hexToArgbColor("9F26B5")
-                                                    : selectedValue == "R"
+            border: OutlineInputBorder(
+              borderSide: BorderSide(
+                color: selectedValue == "A"
+                    ? hexToArgbColor("57C1E9")
+                    : selectedValue == "B"
+                        ? hexToArgbColor("4E9D2D")
+                        : selectedValue == "D"
+                            ? hexToArgbColor("008348")
+                            : selectedValue == "E"
+                                ? hexToArgbColor("552683")
+                                : selectedValue == "G"
+                                    ? hexToArgbColor("F6B221")
+                                    : selectedValue == "H"
+                                        ? hexToArgbColor("0075BE")
+                                        : selectedValue == "L"
+                                            ? hexToArgbColor("FFCE00")
+                                            : selectedValue == "N"
+                                                ? hexToArgbColor("9F26B5")
+                                                : selectedValue == "R"
+                                                    ? hexToArgbColor("C4D600")
+                                                    : selectedValue == "W"
                                                         ? hexToArgbColor(
-                                                            "C4D600")
-                                                        : selectedValue == "W"
-                                                            ? hexToArgbColor(
-                                                                "009DAA")
-                                                            : Colors.black,
-                  ),
-                  borderRadius: const BorderRadius.all(Radius.circular(10)))),
+                                                            "009DAA")
+                                                        : Colors.black,
+              ),
+              borderRadius: const BorderRadius.only(
+                  topLeft: Radius.circular(10),
+                  topRight: Radius.circular(10),
+                  bottomLeft: Radius.circular(10),
+                  bottomRight: Radius.circular(10)),
+            ),
+          ),
           child: DropdownButtonHideUnderline(
             child: DropdownButton(
               dropdownColor: Colors.black,
@@ -154,7 +169,28 @@ class _VehicleSelectionState extends State<VehicleSelection> {
               items: dropdownItems,
               icon: Icon(
                 Icons.train,
-                color: Colors.amber,
+                color: selectedValue == "A"
+                    ? hexToArgbColor("57C1E9")
+                    : selectedValue == "B"
+                        ? hexToArgbColor("4E9D2D")
+                        : selectedValue == "D"
+                            ? hexToArgbColor("008348")
+                            : selectedValue == "E"
+                                ? hexToArgbColor("552683")
+                                : selectedValue == "G"
+                                    ? hexToArgbColor("F6B221")
+                                    : selectedValue == "H"
+                                        ? hexToArgbColor("0075BE")
+                                        : selectedValue == "L"
+                                            ? hexToArgbColor("FFCE00")
+                                            : selectedValue == "N"
+                                                ? hexToArgbColor("9F26B5")
+                                                : selectedValue == "R"
+                                                    ? hexToArgbColor("C4D600")
+                                                    : selectedValue == "W"
+                                                        ? hexToArgbColor(
+                                                            "009DAA")
+                                                        : Colors.amber,
               ),
               onChanged: (value) {
                 setState(() {
