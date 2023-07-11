@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:rtd/components/marquee.dart';
 import 'color_hex_argb.dart';
 
 class VehicleSelection extends StatefulWidget {
@@ -15,7 +14,7 @@ class _VehicleSelectionState extends State<VehicleSelection> {
 
   List<DropdownMenuItem<String>> get dropdownItems {
     List<DropdownMenuItem<String>> menuItems = [
-      DropdownMenuItem(
+      const DropdownMenuItem(
         value: "select",
         child: Text(
           'SELECT A LINE...',
@@ -102,7 +101,7 @@ class _VehicleSelectionState extends State<VehicleSelection> {
   @override
   void initState() {
     selectedValue = "select";
-    headSignStyle = TextStyle(color: Colors.amber, fontWeight: FontWeight.bold);
+    headSignStyle = const TextStyle(color: Colors.amber, fontWeight: FontWeight.bold);
     super.initState();
   }
 

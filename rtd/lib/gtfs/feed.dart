@@ -2,12 +2,14 @@ import 'package:flutter/material.dart';
 import 'package:gtfs_realtime_bindings/gtfs_realtime_bindings.dart';
 import 'package:http/http.dart' as http;
 import 'package:intl/intl.dart';
+import 'package:rtd/components/alert_pop.dart';
 import 'package:rtd/gtfs/map.dart';
 import '../data_sets/route_data.dart';
 import '../data_sets/stop_data.dart';
 import '../data_sets/trip_data.dart';
-import '../data_sets/shape_data.dart';
+import '../data_sets/stop_time.dart';
 import 'dart:async';
+import 'package:rtd/components/color_hex_argb.dart';
 
 class RTDFeed extends StatefulWidget {
   const RTDFeed({required this.vehicle, super.key});
@@ -32,14 +34,11 @@ class _RTDFeedState extends State<RTDFeed> {
   int nextUpdate = 120;
   late Timer updateTimer;
   late Timer countdownTimer;
-
   final status = ["incoming at", "stopped at", "in transit to"];
-
   final snack = const SnackBar(
     content: Text('Data Refreshed'),
   );
 
-  // ignore: non_constant_identifier_names
   void StartTimer() {
     countdownTimer = Timer.periodic(countDown, (Timer timer) {
       if (nextUpdate == 0) {
@@ -111,86 +110,6 @@ class _RTDFeedState extends State<RTDFeed> {
     }
   }
 
-  Color hexToArgbColor(String hexColor) {
-    // Remove the '#' character if present
-    if (hexColor.startsWith('#')) {
-      hexColor = hexColor.substring(1);
-    }
-
-    // Pad the hexadecimal color code if it's a short form
-    if (hexColor.length == 6) {
-      hexColor = 'FF$hexColor';
-    }
-
-    // Parse the hexadecimal color code
-    int colorValue = int.parse(hexColor, radix: 16);
-
-    // Return the ARGB color
-    return Color(colorValue);
-  }
-
-  Widget _buildPopupDialog(BuildContext context, list) {
-    List<FeedEntity> thisList = list;
-
-    return AlertDialog(
-      title: const Text('Service Alerts'),
-      content: list.length > 0
-          ? Container(
-              width: double.maxFinite,
-              child: ListView.builder(
-                  shrinkWrap: true,
-                  itemCount: thisList.length,
-                  itemBuilder: (BuildContext context, int index) {
-                    return ListTile(
-                      isThreeLine: true,
-                      title: Column(
-                        children: [
-                          Text(thisList[index]
-                              .alert
-                              .descriptionText
-                              .translation[0]
-                              .text
-                              .toString()),
-                          const SizedBox(
-                            height: 10,
-                            width: 100,
-                          ),
-                          thisList[index].alert.activePeriod[0].start.toInt() >
-                                  0
-                              ? Text(
-                                  "Starting ${DateFormat.yMMMMd('en_US').format(DateTime.fromMillisecondsSinceEpoch(thisList[index].alert.activePeriod[0].start.toInt() * 1000))}")
-                              : const SizedBox(),
-                          const SizedBox(
-                            height: 10,
-                            width: 100,
-                          ),
-                          thisList[index].alert.activePeriod[0].end.toInt() > 0
-                              ? Text(
-                                  "Ending ${DateFormat.yMMMMd('en_US').format(DateTime.fromMillisecondsSinceEpoch(thisList[index].alert.activePeriod[0].end.toInt() * 1000))}")
-                              : const SizedBox(),
-                        ],
-                      ),
-                      subtitle: Text(thisList[index]
-                          .alert
-                          .headerText
-                          .translation[0]
-                          .text
-                          .toString()),
-                    );
-                  }),
-            )
-          : const Text('There are no service alerts at this time.'),
-      actions: <Widget>[
-        OutlinedButton(
-          onPressed: () {
-            Navigator.of(context).pop();
-          },
-          child: const Text('Close'),
-        ),
-      ],
-    );
-  }
-
   @override
   void initState() {
     AlertFeed();
@@ -256,6 +175,8 @@ class _RTDFeedState extends State<RTDFeed> {
                   stops = trips[tripIndex].tripUpdate.stopTimeUpdate.toList();
                 }
               }
+
+              //
 
               //get route data of the selected train/bus
               return routeData[
@@ -502,9 +423,9 @@ class _RTDFeedState extends State<RTDFeed> {
                                                             context: context,
                                                             builder: (BuildContext
                                                                     context) =>
-                                                                _buildPopupDialog(
-                                                                    context,
-                                                                    thisAlertsList));
+                                                                AlertPopup(
+                                                                    alerts:
+                                                                        thisAlertsList));
                                                       },
                                                       icon: thisAlertsList
                                                               .isNotEmpty
@@ -536,13 +457,16 @@ class _RTDFeedState extends State<RTDFeed> {
                                                     subtitle: Column(
                                                       children: [
                                                         Text(
-                                                            "Arrives at ${DateFormat.yMMMMd('en_US').add_jm().format(DateTime.fromMillisecondsSinceEpoch(stops[index].arrival.time.toInt() * 1000))}"),
+                                                            "Expected arrival: ${DateFormat.yMMMMd('en_US').add_jm().format(DateTime.fromMillisecondsSinceEpoch(stops[index].arrival.time.toInt() * 1000))}"),
                                                         Text(
-                                                            "Departs at ${DateFormat.yMMMMd('en_US').add_jm().format(DateTime.fromMillisecondsSinceEpoch(stops[index].departure.time.toInt() * 1000))}")
+                                                            "Expected departure: ${DateFormat.yMMMMd('en_US').add_jm().format(DateTime.fromMillisecondsSinceEpoch(stops[index].departure.time.toInt() * 1000))}")
                                                       ],
                                                     ),
-                                                    trailing: const Icon(Icons
-                                                        .info_outline_rounded),
+                                                    trailing: IconButton(
+                                                      onPressed: () {},
+                                                      icon: Icon(
+                                                          Icons.info_outline),
+                                                    ),
                                                   ),
                                                 ),
                                               );

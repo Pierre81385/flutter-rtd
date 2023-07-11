@@ -37,10 +37,10 @@ class _MarqueeWidgetState extends State<MarqueeWidget> {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      physics: NeverScrollableScrollPhysics(),
-      child: widget.child,
+      physics: const NeverScrollableScrollPhysics(),
       scrollDirection: widget.direction,
       controller: scrollController,
+      child: widget.child,
     );
   }
 

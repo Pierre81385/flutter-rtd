@@ -109,9 +109,9 @@ class _MapViewState extends State<MapView> {
       polylineId: PolylineId(widget.vehicleId),
       visible: true,
       patterns: <PatternItem>[
-        PatternItem.gap(15.0),
+        PatternItem.gap(5.0),
         PatternItem.dot,
-        PatternItem.gap(15.0)
+        PatternItem.gap(5.0)
       ],
       width: 5,
       points: [
