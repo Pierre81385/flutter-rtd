@@ -255,17 +255,16 @@ class _RTDFeedState extends State<RTDFeed> {
                                         child: ListTile(
                                           isThreeLine: true,
                                           //name of the route selected
-                                          leading: IconButton(
-                                            onPressed: () {
-                                              //popup for schedule list here
-                                            },
-                                            icon: const Icon(
-                                              Icons.schedule_outlined,
-                                              color: Colors.white,
-                                            ),
+                                          leading: Text(
+                                            "#${vehicles[index].vehicle.vehicle.label.toString()}",
+                                            style: TextStyle(
+                                                fontSize: 15,
+                                                color: Colors.white,
+                                                fontWeight: FontWeight.bold),
                                           ),
                                           //descriptive name of the route
                                           title: Text(
+                                              textAlign: TextAlign.center,
                                               // "${routeData[vehicles[index].vehicle.trip.routeId.toString()]!["route_short_name"].toString()} Line heading to ${tripData[tripData.indexWhere((element) => element["trip_id"] == vehicles[index].vehicle.trip.tripId)]["trip_headsign"].toString()} ${status[vehicles[index].vehicle.currentStatus.value].toUpperCase()} ${stopData[vehicles[index].vehicle.stopId]!["stop_name"]}"),
                                               style: const TextStyle(
                                                   color: Colors.white),
@@ -309,6 +308,7 @@ class _RTDFeedState extends State<RTDFeed> {
                                                   Icons.place_outlined)),
                                           //route direction information & current status of movement
                                           subtitle: Text(
+                                              textAlign: TextAlign.center,
                                               style: const TextStyle(
                                                   color: Colors.white),
                                               "Status update on ${DateFormat.yMMMMd('en_US').add_jm().format(DateTime.fromMillisecondsSinceEpoch(vehicles[index].vehicle.timestamp.toInt() * 1000))}.  Next update in ${nextUpdate.toString()} seconds."),
