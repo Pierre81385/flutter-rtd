@@ -3,12 +3,16 @@ import 'package:gtfs_realtime_bindings/gtfs_realtime_bindings.dart';
 import 'package:http/http.dart' as http;
 import 'package:intl/intl.dart';
 import 'package:rtd/components/alert_pop.dart';
+import 'package:rtd/data_sets/stop_time.dart';
 import 'package:rtd/gtfs/map.dart';
 import '../data_sets/route_data.dart';
 import '../data_sets/stop_data.dart';
 import '../data_sets/trip_data.dart';
 import 'dart:async';
 import 'package:rtd/components/color_hex_argb.dart';
+import 'package:geolocator/geolocator.dart';
+import 'package:geolocator_platform_interface/src/models/position.dart'
+    as user_position;
 
 class RTDFeed extends StatefulWidget {
   const RTDFeed({required this.lineSelected, super.key});
@@ -23,7 +27,7 @@ class _RTDFeedState extends State<RTDFeed> {
   late List<FeedEntity> _feedTrips = [];
   late List<FeedEntity> vehicles = [];
   late GlobalKey<ScaffoldState> _scaffoldKey;
-  late List<FeedEntity> _feedStops = [];
+  late List<Map<String, Object>> _trainStops = [];
   late bool alertsFinished = false;
   late bool tripsFinished = false;
   late bool vehiclesFinished = false;
@@ -38,6 +42,7 @@ class _RTDFeedState extends State<RTDFeed> {
     content: Text('Data Refreshed'),
   );
   int nextUpdate = 120;
+  late user_position.Position _userPosition;
 
   //gtfs-rt auto-updater
   void StartTimer() {
@@ -114,15 +119,88 @@ class _RTDFeedState extends State<RTDFeed> {
     }
   }
 
-  //create a list of all train stops
+  Future<bool> _handleLocationPermission() async {
+    bool serviceEnabled;
+    LocationPermission permission;
 
-  void listStops() {
-    //get all routes by train by saerching tripData for     example "trip_headsign": "D-Line Mineral"
-    for (var i = 0; i < _feedTrips.length; i++) {
-      if (routeData[i]!["route_short_name"] == widget.lineSelected) {
-        print(routeData[i]!["route_long_name"]);
+    serviceEnabled = await Geolocator.isLocationServiceEnabled();
+    if (!serviceEnabled) {
+      ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
+          content: Text(
+              'Location services are disabled. Please enable the services')));
+      return false;
+    }
+    permission = await Geolocator.checkPermission();
+    if (permission == LocationPermission.denied) {
+      permission = await Geolocator.requestPermission();
+      if (permission == LocationPermission.denied) {
+        ScaffoldMessenger.of(context).showSnackBar(
+            const SnackBar(content: Text('Location permissions are denied')));
+        return false;
       }
     }
+    if (permission == LocationPermission.deniedForever) {
+      ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
+          content: Text(
+              'Location permissions are permanently denied, we cannot request permissions.')));
+      return false;
+    }
+    return true;
+  }
+
+  Future<void> _getCurrentPosition() async {
+    final hasPermission = await _handleLocationPermission();
+
+    if (!hasPermission) return;
+
+    await Geolocator.getCurrentPosition(desiredAccuracy: LocationAccuracy.high)
+        .then((user_position.Position position) {
+      print('getting user location: ' + position.toString());
+      setState(() {
+        _userPosition = position;
+      });
+    }).catchError((e) {
+      print(e);
+    });
+  }
+
+  // {"trip_id":114496781,"arrival_time":"14:08:45","departure_time":"14:08:45","stop_id":23485,"stop_sequence":1,"stop_headsign":"","pickup_type":0,"drop_off_type":1,"shape_dist_traveled":"","timepoint":1},{"trip_id":114496781,"arrival_time":"14:12:55","departure_time":"14:12:55","stop_id":17698,"stop_sequence":2,"stop_headsign":"","pickup_type":0,"drop_off_type":0,"shape_dist_traveled":"","timepoint":0},{"tr
+
+  //create a list of all train stops
+  void getTrainStops(line) {
+    var r;
+    List t = [];
+    List allT = [];
+
+    //confirm route_id
+    const routeIds = [
+      "A",
+      "113B",
+      "101D",
+      "101E",
+      "113G",
+      "101H",
+      "109L",
+      "117N",
+      "107R",
+      "103W"
+    ];
+    for (var i = 0; i < routeIds.length; i++) {
+      if (routeData[routeIds[i]]!["route_short_name"] == line) {
+        r = routeIds[i];
+        print("route_id " + r.toString());
+      }
+    }
+    //confirm trip_id for a given route
+    for (var i = 0; i < vehicles.length; i++) {
+      if (vehicles[i].vehicle.trip.routeId == r) {
+        t.add(vehicles[i].vehicle.trip.tripId);
+        print("trip_id " + t.toString());
+      }
+    }
+    //confirmed the above 2 functions return all of the trip ID's for a given route into list 't'!
+
+    //putting this on hold for the moment
   }
 
   @override
@@ -130,6 +208,7 @@ class _RTDFeedState extends State<RTDFeed> {
     AlertFeed();
     VehicaleFeed();
     TripFeed();
+    _getCurrentPosition();
     _scaffoldKey = GlobalKey();
     stopSelected = "";
     stopScroll = false;
@@ -191,6 +270,8 @@ class _RTDFeedState extends State<RTDFeed> {
                       _feedTrips[tripIndex].tripUpdate.stopTimeUpdate.toList();
                 }
               }
+
+              getTrainStops(widget.lineSelected);
 
               //get route data of the selected train/bus
               return routeData[
