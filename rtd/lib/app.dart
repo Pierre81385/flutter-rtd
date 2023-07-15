@@ -13,7 +13,7 @@ class RTDApp extends StatefulWidget {
 }
 
 class _RTDAppState extends State<RTDApp> {
-  late String _vehicleSelected = "select";
+  late String _lineSelected = "select";
 
   @override
   void initState() {
@@ -42,14 +42,14 @@ class _RTDAppState extends State<RTDApp> {
                 child: Center(
                   child: VehicleSelection(onChange: (value) {
                     setState(() {
-                      _vehicleSelected = value;
+                      _lineSelected = value;
                     });
                   }),
                 ),
               ),
               Expanded(
                   child: RTDFeed(
-                vehicle: _vehicleSelected,
+                lineSelected: _lineSelected,
               )),
             ],
           ),

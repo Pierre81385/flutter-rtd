@@ -101,7 +101,8 @@ class _VehicleSelectionState extends State<VehicleSelection> {
   @override
   void initState() {
     selectedValue = "select";
-    headSignStyle = const TextStyle(color: Colors.amber, fontWeight: FontWeight.bold);
+    headSignStyle =
+        const TextStyle(color: Colors.amber, fontWeight: FontWeight.bold);
     super.initState();
   }
 
@@ -196,8 +197,8 @@ class _VehicleSelectionState extends State<VehicleSelection> {
                   selectedValue = value!;
                 });
                 widget.onChange(value!);
-                //print(value);
-                //print(selectedValue);
+                print(value);
+                print(selectedValue);
               },
             ),
           ),

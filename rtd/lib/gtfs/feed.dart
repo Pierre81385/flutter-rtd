@@ -7,38 +7,39 @@ import 'package:rtd/gtfs/map.dart';
 import '../data_sets/route_data.dart';
 import '../data_sets/stop_data.dart';
 import '../data_sets/trip_data.dart';
-import '../data_sets/stop_time.dart';
 import 'dart:async';
 import 'package:rtd/components/color_hex_argb.dart';
 
 class RTDFeed extends StatefulWidget {
-  const RTDFeed({required this.vehicle, super.key});
-  final String vehicle;
+  const RTDFeed({required this.lineSelected, super.key});
+  final String lineSelected;
 
   @override
   State<RTDFeed> createState() => _RTDFeedState();
 }
 
 class _RTDFeedState extends State<RTDFeed> {
-  late List<FeedEntity> alerts = [];
-  late List<FeedEntity> trips = [];
+  late List<FeedEntity> _feedAlerts = [];
+  late List<FeedEntity> _feedTrips = [];
   late List<FeedEntity> vehicles = [];
+  late GlobalKey<ScaffoldState> _scaffoldKey;
+  late List<FeedEntity> _feedStops = [];
   late bool alertsFinished = false;
   late bool tripsFinished = false;
   late bool vehiclesFinished = false;
-  final time = const Duration(seconds: 120);
-  final countDown = const Duration(seconds: 1);
-  late GlobalKey<ScaffoldState> _scaffoldKey;
   late String stopSelected;
   late bool stopScroll;
-  int nextUpdate = 120;
   late Timer updateTimer;
   late Timer countdownTimer;
+  final time = const Duration(seconds: 120);
+  final countDown = const Duration(seconds: 1);
   final status = ["incoming at", "stopped at", "in transit to"];
   final snack = const SnackBar(
     content: Text('Data Refreshed'),
   );
+  int nextUpdate = 120;
 
+  //gtfs-rt auto-updater
   void StartTimer() {
     countdownTimer = Timer.periodic(countDown, (Timer timer) {
       if (nextUpdate == 0) {
@@ -53,13 +54,14 @@ class _RTDFeedState extends State<RTDFeed> {
     });
 
     updateTimer = Timer.periodic(time, (Timer timer) {
-      print("data update requested");
+      //print("data update requested");
       AlertFeed();
       VehicaleFeed();
       TripFeed();
     });
   }
 
+  //real time trip alerts data
   void AlertFeed() async {
     final url = Uri.parse('https://www.rtd-denver.com/files/gtfs-rt/Alerts.pb');
     final response = await http.get(url);
@@ -68,7 +70,7 @@ class _RTDFeedState extends State<RTDFeed> {
       final feedMessage = FeedMessage.fromBuffer(response.bodyBytes);
 
       setState(() {
-        alerts = feedMessage.entity;
+        _feedAlerts = feedMessage.entity;
         alertsFinished = true;
       });
     } else {
@@ -76,6 +78,7 @@ class _RTDFeedState extends State<RTDFeed> {
     }
   }
 
+  //real time trip data
   void TripFeed() async {
     final url =
         Uri.parse('https://www.rtd-denver.com/files/gtfs-rt/TripUpdate.pb');
@@ -85,7 +88,7 @@ class _RTDFeedState extends State<RTDFeed> {
       final feedMessage = FeedMessage.fromBuffer(response.bodyBytes);
 
       setState(() {
-        trips = feedMessage.entity;
+        _feedTrips = feedMessage.entity;
         tripsFinished = true;
       });
     } else {
@@ -93,6 +96,7 @@ class _RTDFeedState extends State<RTDFeed> {
     }
   }
 
+  //real time vehicle data
   void VehicaleFeed() async {
     final url = Uri.parse(
         'https://www.rtd-denver.com/files/gtfs-rt/VehiclePosition.pb');
@@ -107,6 +111,17 @@ class _RTDFeedState extends State<RTDFeed> {
       });
     } else {
       print('Request failed with status: ${response.statusCode}.');
+    }
+  }
+
+  //create a list of all train stops
+
+  void listStops() {
+    //get all routes by train by saerching tripData for     example "trip_headsign": "D-Line Mineral"
+    for (var i = 0; i < _feedTrips.length; i++) {
+      if (routeData[i]!["route_short_name"] == widget.lineSelected) {
+        print(routeData[i]!["route_long_name"]);
+      }
     }
   }
 
@@ -147,7 +162,7 @@ class _RTDFeedState extends State<RTDFeed> {
                 VehicaleFeed();
                 TripFeed();
               });
-              print("updating real time feed data!");
+              //print("updating real time feed data!");
 
               // showing snackbar
               ScaffoldMessenger.of(context).showSnackBar(snack);
@@ -162,28 +177,27 @@ class _RTDFeedState extends State<RTDFeed> {
             itemBuilder: (BuildContext context, int index) {
               List<TripUpdate_StopTimeUpdate> stops = [];
               //finding all trips in tripUpdate RT FEED that match selected vehicle tripId
-              int tripIndex = trips.indexWhere((element) =>
+              int tripIndex = _feedTrips.indexWhere((element) =>
                   element.tripUpdate.trip.tripId ==
                   vehicles[index].vehicle.trip.tripId);
               if (tripIndex == -1) {
-                print('gather information');
+                //print('gather information');
               } else {
                 for (var i = 0;
-                    i <= trips[tripIndex].tripUpdate.stopTimeUpdate.length;
+                    i <= _feedTrips[tripIndex].tripUpdate.stopTimeUpdate.length;
                     i++) {
                   //listing all of the stops remaining for this tripId
-                  stops = trips[tripIndex].tripUpdate.stopTimeUpdate.toList();
+                  stops =
+                      _feedTrips[tripIndex].tripUpdate.stopTimeUpdate.toList();
                 }
               }
-
-              //
 
               //get route data of the selected train/bus
               return routeData[
                           vehicles[index].vehicle.trip.routeId.toString()] ==
                       null
                   ? const SizedBox()
-                  : widget.vehicle == "select"
+                  : widget.lineSelected == "select"
                       ? const SizedBox()
                       : routeData[vehicles[index]
                                       .vehicle
@@ -191,7 +205,7 @@ class _RTDFeedState extends State<RTDFeed> {
                                       .routeId
                                       .toString()]!["route_short_name"]
                                   .toString() ==
-                              widget.vehicle
+                              widget.lineSelected
                           ? Padding(
                               padding: const EdgeInsets.all(8.0),
                               child: Container(
@@ -254,7 +268,6 @@ class _RTDFeedState extends State<RTDFeed> {
                                         ),
                                         child: ListTile(
                                           isThreeLine: true,
-                                          //name of the route selected
                                           leading: Text(
                                             "#${vehicles[index].vehicle.vehicle.label.toString()}",
                                             style: TextStyle(
@@ -365,20 +378,18 @@ class _RTDFeedState extends State<RTDFeed> {
                                                   [];
 
                                               for (var i = 0;
-                                                  i <= alerts.length - 1;
+                                                  i <= _feedAlerts.length - 1;
                                                   i++) {
-                                                var informedEntities = alerts[i]
-                                                    .alert
-                                                    .informedEntity;
+                                                var informedEntities =
+                                                    _feedAlerts[i]
+                                                        .alert
+                                                        .informedEntity;
                                                 for (var entity
                                                     in informedEntities) {
                                                   if (entity.stopId ==
                                                       stops[index].stopId) {
                                                     thisAlertsList
-                                                        .add(alerts[i]);
-
-                                                    print(thisAlertsList
-                                                        .toString());
+                                                        .add(_feedAlerts[i]);
                                                   }
                                                 }
                                               }
