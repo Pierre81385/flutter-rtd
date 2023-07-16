@@ -3,6 +3,7 @@ import 'package:gtfs_realtime_bindings/gtfs_realtime_bindings.dart';
 import 'package:http/http.dart' as http;
 import 'package:intl/intl.dart';
 import 'package:rtd/components/alert_pop.dart';
+import 'package:rtd/components/info_pop.dart';
 import 'package:rtd/data_sets/stop_time.dart';
 import 'package:rtd/gtfs/map.dart';
 import '../data_sets/route_data.dart';
@@ -43,6 +44,19 @@ class _RTDFeedState extends State<RTDFeed> {
   );
   int nextUpdate = 120;
   late user_position.Position _userPosition;
+  late double _distance;
+  List routeIds = [
+    "A",
+    "113B",
+    "101D",
+    "101E",
+    "113G",
+    "101H",
+    "109L",
+    "117N",
+    "107R",
+    "103W"
+  ];
 
   //gtfs-rt auto-updater
   void StartTimer() {
@@ -63,6 +77,7 @@ class _RTDFeedState extends State<RTDFeed> {
       AlertFeed();
       VehicaleFeed();
       TripFeed();
+      _getCurrentPosition();
     });
   }
 
@@ -164,51 +179,14 @@ class _RTDFeedState extends State<RTDFeed> {
     });
   }
 
-  // {"trip_id":114496781,"arrival_time":"14:08:45","departure_time":"14:08:45","stop_id":23485,"stop_sequence":1,"stop_headsign":"","pickup_type":0,"drop_off_type":1,"shape_dist_traveled":"","timepoint":1},{"trip_id":114496781,"arrival_time":"14:12:55","departure_time":"14:12:55","stop_id":17698,"stop_sequence":2,"stop_headsign":"","pickup_type":0,"drop_off_type":0,"shape_dist_traveled":"","timepoint":0},{"tr
-
-  //create a list of all train stops
-  void getTrainStops(line) {
-    var r;
-    List t = [];
-    List allT = [];
-
-    //confirm route_id
-    const routeIds = [
-      "A",
-      "113B",
-      "101D",
-      "101E",
-      "113G",
-      "101H",
-      "109L",
-      "117N",
-      "107R",
-      "103W"
-    ];
-    for (var i = 0; i < routeIds.length; i++) {
-      if (routeData[routeIds[i]]!["route_short_name"] == line) {
-        r = routeIds[i];
-        print("route_id " + r.toString());
-      }
-    }
-    //confirm trip_id for a given route
-    for (var i = 0; i < vehicles.length; i++) {
-      if (vehicles[i].vehicle.trip.routeId == r) {
-        t.add(vehicles[i].vehicle.trip.tripId);
-        print("trip_id " + t.toString());
-      }
-    }
-    //confirmed the above 2 functions return all of the trip ID's for a given route into list 't'!
-
-    //putting this on hold for the moment
-  }
-
   @override
   void initState() {
     AlertFeed();
     VehicaleFeed();
     TripFeed();
-    _getCurrentPosition();
+    _userPosition =
+        user_position.Position.fromMap({'latitude': 0.0, 'longitude': -0.0});
+    _distance = 0;
     _scaffoldKey = GlobalKey();
     stopSelected = "";
     stopScroll = false;
@@ -271,7 +249,9 @@ class _RTDFeedState extends State<RTDFeed> {
                 }
               }
 
-              getTrainStops(widget.lineSelected);
+              if (_userPosition.latitude == 0 && _userPosition.longitude == 0) {
+                _getCurrentPosition();
+              }
 
               //get route data of the selected train/bus
               return routeData[
@@ -405,7 +385,7 @@ class _RTDFeedState extends State<RTDFeed> {
                                               textAlign: TextAlign.center,
                                               style: const TextStyle(
                                                   color: Colors.white),
-                                              "Status update on ${DateFormat.yMMMMd('en_US').add_jm().format(DateTime.fromMillisecondsSinceEpoch(vehicles[index].vehicle.timestamp.toInt() * 1000))}.  Next update in ${nextUpdate.toString()} seconds."),
+                                              "Status update on ${DateFormat.yMMMMd('en_US').add_jm().format(DateTime.fromMillisecondsSinceEpoch(vehicles[index].vehicle.timestamp.toInt() * 1000))}.  Next update: ${nextUpdate.toString()} seconds."),
                                         ),
                                       ),
                                     ),
@@ -555,10 +535,30 @@ class _RTDFeedState extends State<RTDFeed> {
                                                       ],
                                                     ),
                                                     trailing: IconButton(
-                                                      onPressed: () {},
-                                                      icon: Icon(
-                                                          Icons.info_outline),
-                                                    ),
+                                                        onPressed: () {
+                                                          //popup for station list here
+                                                          showDialog(
+                                                            context: context,
+                                                            builder: (BuildContext context) => InfoPopup(
+                                                                title: stopData[
+                                                                            stops[index].stopId]![
+                                                                        "stop_name"]
+                                                                    .toString(),
+                                                                content: Geolocator.distanceBetween(
+                                                                    _userPosition
+                                                                        .latitude,
+                                                                    _userPosition
+                                                                        .longitude,
+                                                                    stopData[stops[index].stopId]![
+                                                                            "stop_lat"]
+                                                                        as double,
+                                                                    stopData[stops[index].stopId]![
+                                                                            "stop_lon"]
+                                                                        as double)),
+                                                          );
+                                                        },
+                                                        icon: const Icon(Icons
+                                                            .transfer_within_a_station_outlined)),
                                                   ),
                                                 ),
                                               );
