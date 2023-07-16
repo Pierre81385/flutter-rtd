@@ -27,12 +27,12 @@ class _RTDAppState extends State<RTDApp> {
       //   title: const Text('Where\'s my train?'),
       // ),
       body: Container(
-        // decoration: const BoxDecoration(
-        //   image: DecorationImage(
-        //     image: AssetImage("lib/assets/background.jpeg"),
-        //     fit: BoxFit.cover,
-        //   ),
-        // ),
+        decoration: const BoxDecoration(
+          image: DecorationImage(
+            image: AssetImage("lib/assets/background.gif"),
+            fit: BoxFit.cover,
+          ),
+        ),
         child: SafeArea(
           bottom: false,
           child: Column(
