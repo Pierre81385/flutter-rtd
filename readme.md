@@ -1,4 +1,8 @@
-![demo](https://github.com/Pierre81385/rtd_flutter/blob/main/rtd/lib/assets/train2.gif)
+![demo](https://github.com/Pierre81385/rtd_flutter/blob/main/rtd/lib/assets/ssr.gif?raw=true)
+
+# CURRENTLY TESTING WITH TESTFLIGHT!!!
+
+- if you'd like to try the app on your phone, contact me at pjb.den@gmail.com to join our testing group!
 
 # Where's my train?
 
@@ -12,6 +16,7 @@
     - Each station that the train is scheduled to arrive at next is displayed with a marker
       - Touching the marker will display the station name and move it to the center of view
     - A color coded route (polyline) shows the projected path of the train
+- Need to find the nearest station to catch your train? Each station has a walk icon. Touch this to see how far the staion is from your location!
 
 ## The deets
 
@@ -19,3 +24,7 @@
   - calendar, route, stop, stop time, and trip data
 - GTFS-RT real time data feeds for alerts, trip updates, and vehicle information
 - GoogleMaps API
+
+## NOTE:
+
+- activating the screen recording feature in iOS causes the app to crash.
