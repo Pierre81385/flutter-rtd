@@ -271,7 +271,7 @@ class _RTDFeedState extends State<RTDFeed> {
                               padding: const EdgeInsets.all(8.0),
                               child: Container(
                                 decoration: BoxDecoration(
-                                  color: Colors.white.withOpacity(0.2),
+                                  color: Colors.white.withOpacity(1.0),
                                   border: Border.all(
                                       color: hexToArgbColor(routeData[vehicles[
                                                       index]
@@ -288,7 +288,7 @@ class _RTDFeedState extends State<RTDFeed> {
                                       bottomRight: Radius.circular(10)),
                                   boxShadow: [
                                     BoxShadow(
-                                      color: Colors.grey.withOpacity(0.5),
+                                      color: Colors.white.withOpacity(0.25),
                                       spreadRadius: 5,
                                       blurRadius: 7,
                                       offset: const Offset(
@@ -534,31 +534,14 @@ class _RTDFeedState extends State<RTDFeed> {
                                                             "Expected departure: ${DateFormat.yMMMMd('en_US').add_jm().format(DateTime.fromMillisecondsSinceEpoch(stops[index].departure.time.toInt() * 1000))}")
                                                       ],
                                                     ),
-                                                    trailing: IconButton(
-                                                        onPressed: () {
-                                                          //popup for station list here
-                                                          showDialog(
-                                                            context: context,
-                                                            builder: (BuildContext context) => InfoPopup(
-                                                                title: stopData[
-                                                                            stops[index].stopId]![
-                                                                        "stop_name"]
-                                                                    .toString(),
-                                                                content: Geolocator.distanceBetween(
-                                                                    _userPosition
-                                                                        .latitude,
-                                                                    _userPosition
-                                                                        .longitude,
-                                                                    stopData[stops[index].stopId]![
-                                                                            "stop_lat"]
-                                                                        as double,
-                                                                    stopData[stops[index].stopId]![
-                                                                            "stop_lon"]
-                                                                        as double)),
-                                                          );
-                                                        },
-                                                        icon: const Icon(Icons
-                                                            .transfer_within_a_station_outlined)),
+                                                    trailing: Column(
+                                                      children: [
+                                                        const Icon(Icons
+                                                            .transfer_within_a_station_outlined),
+                                                        Text(
+                                                            "${(Geolocator.distanceBetween(_userPosition.latitude, _userPosition.longitude, stopData[stops[index].stopId]!["stop_lat"] as double, stopData[stops[index].stopId]!["stop_lon"] as double) / 1609).toStringAsFixed(2)} mi")
+                                                      ],
+                                                    ),
                                                   ),
                                                 ),
                                               );
