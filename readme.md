@@ -1,9 +1,5 @@
 ![demo](https://github.com/Pierre81385/rtd_flutter/blob/main/rtd/lib/assets/ssr.gif?raw=true)
 
-# CURRENTLY TESTING WITH TESTFLIGHT!!!
-
-- if you'd like to try the app on your phone, contact me at pjb.den@gmail.com to join our testing group!
-
 # Where's my train?
 
 - An app to quickly find out where the train you want to board is currently located.
